@@ -1,0 +1,123 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+import MySQLdb,datetime,time,sys,re,os
+
+args = sys.argv[1:]
+if len(args)<1 or args[0].count('help'):
+  print "Centreon Plugin 1.0\nSLA host e servico por GemayelLira"
+  print "obs:este plugin deve ser executado 1x ao dia"
+  print "Argumentos:host servico warning critical"
+  print 'Ex.\n%s "Central-Alarmes-Equatorial" "Teste_Internet-Eletronorte" "80" "95"' % sys.argv[0] 
+  sys.exit(1)
+else:
+  elemento=args[0]
+  elemento_service=args[1]
+  alertwarn=float(args[2])
+  alertcrit=float(args[3])
+
+conf_file='/etc/centreon/conf.pm'#configuravel
+if not os.path.isfile(conf_file):
+  print 'ERRO - Nao tenho como conectar no banco de dados'
+  sys.exit(2)
+data=open(conf_file,'r').read()
+try:
+  host=re.findall('mysql_host = "(.+?)"',data)[0]
+  user=re.findall('mysql_user = "(.+?)"',data)[0]
+  password=re.findall("mysql_passwd = '(.+?)'",data)[0]
+  conn = MySQLdb.connect (host,user,password,"centreon")
+except:
+  print 'ERRO - Nao tenho como conectar no banco de dados'
+  sys.exit(2)
+
+def sec_to_time(segundos):
+  sec = datetime.timedelta(seconds=int(segundos))
+  d = datetime.datetime(1,1,1) + sec
+  #return("%d dia(s) %d hora(s) %d minuto(s) %d segundo(s)" % (d.day-1, d.hour, d.minute, d.second))  
+  return("%dd %dh %dm %ds" % (d.day-1, d.hour, d.minute, d.second))  
+  
+n = datetime.datetime.now()
+tempo_inicial=time.mktime(datetime.datetime(n.year, n.month, 1, 0, 0, 0, 0).timetuple())
+tempo_atual=time.mktime(datetime.datetime(n.year, n.month, n.day, 0, 0, 0, 0).timetuple())
+###host='184.106.240.186'
+###user='relatorio'
+###password='W2bVC6oFZP'
+conn = MySQLdb.connect (host,user,password,"centreon")
+
+cursor = conn.cursor()
+cursor.execute ("""select OKTimeScheduled,OKnbEvent,WARNINGTimeScheduled,WARNINGnbEvent,UNKNOWNTimeScheduled,UNKNOWNnbEvent,CRITICALTimeScheduled,CRITICALnbEvent
+    from service 
+        inner join host_service_relation 
+        inner join host 
+        inner join centstorage.log_archive_service
+on 
+host_service_relation.service_service_id = service.service_id
+and
+host_service_relation.host_host_id = host.host_id
+and 
+centstorage.log_archive_service.host_id = host.host_id
+and 
+centstorage.log_archive_service.service_id = service.service_id
+where 
+    host_name='"""+elemento+"""' and 
+    service_description = '"""+elemento_service+"""' AND 
+    date_start >= '"""+str(int(tempo_inicial))+"""' AND 
+    date_end <= '"""+str(int(tempo_atual))+"""' 
+ORDER BY `date_start` DESC""")
+oktime=0
+okevent=0
+warntime=0
+warnevent=0
+unknowtime=0
+unknowevent=0
+crittime=0
+critevent=0
+for i in cursor.fetchall():
+  OKTimeScheduled,OKnbEvent,WARNINGTimeScheduled,WARNINGnbEvent,UNKNOWNTimeScheduled,UNKNOWNnbEvent,CRITICALTimeScheduled,CRITICALnbEvent=i
+  #print OKTimeScheduled,OKnbEvent,WARNINGTimeScheduled,WARNINGnbEvent,UNKNOWNTimeScheduled,UNKNOWNnbEvent,CRITICALTimeScheduled,CRITICALnbEvent
+  oktime+=OKTimeScheduled
+  okevent+=OKnbEvent
+  warntime+=WARNINGTimeScheduled
+  warnevent+=WARNINGnbEvent
+  unknowtime+=UNKNOWNTimeScheduled
+  unknowevent+=UNKNOWNnbEvent
+  crittime+=CRITICALTimeScheduled
+  critevent+=CRITICALnbEvent
+
+totaltempo=tempo_atual-tempo_inicial
+totalalertas=(okevent+warnevent+critevent+unknowevent)
+okperc=(oktime*100/totaltempo)
+warnperc=(warntime*100/totaltempo)
+critperc=(crittime*100/totaltempo)
+unknowperc=(unknowtime*100/totaltempo)
+#print oktime,okevent,warntime,warnevent,crittime,critevent,unknowtime,unknowevent
+if alertcrit>=okperc:
+  print "CRITICO - SLA OK %.2f%% WARN %.2f%% CRIT %.2f%%"%(okperc,warnperc,critperc)
+  sinal=2
+elif alertwarn>=okperc:
+  print "ATENCAO - SLA OK %.2f%% WARN %.2f%% CRIT %.2f%%"%(okperc,warnperc,critperc)  
+  sinal=1
+else:
+  print "OK - SLA OK %.2f%% WARN %.2f%% CRIT %.2f%%"%(okperc,warnperc,critperc)
+  sinal=0
+
+print "Elemento:%s Servico:%s" % (elemento,elemento_service)
+###print "Tempo total do mes",sec_to_time(totaltempo),"Total Alertas",totalalertas
+###print "OK - \t\t%.2f%%"%okperc,sec_to_time(oktime)," Alertas:",okevent
+###print "ATENCAO - \t%.2f%%"%warnperc,sec_to_time(warntime)," Alertas:",warnevent
+###print "CRITICO - \t%.2f%%"%critperc,sec_to_time(crittime)," Alertas:",critevent
+###print "DESCONHECIDO - \t%.2f%%"%unknowperc,sec_to_time(unknowtime)," Alertas:",unknowevent
+data="""<table class="ListTable"><tbody><tr class="ListHeader"><tr class="list_lvl_1"><td class="ListColHeaderCenter">Estado</td>
+<td class="ListColHeaderCenter">Duracao</td><td class="ListColHeaderRight">Tempo Total</td><td class="ListColHeaderRight">Alertas</td></tr>
+<tr class="list_one"><td style="background:#19EE11" class="ListColCenter">OK</td>
+<td class="ListColCenter">%s</td><td class="ListColRight">%.2f%%</td><td class="ListColRight">%d</td></tr><tr class="list_two">
+<td style="background:#F8C706" class="ListColCenter">Atencao</td>
+<td class="ListColCenter">%s</td><td class="ListColRight">%.2f%%</td><td class="ListColRight">%d</td></tr><tr class="list_one">
+<td style="background:#F91D05" class="ListColCenter">Critico</td>
+<td class="ListColCenter">%s</td><td class="ListColRight">%.2f%%</td><td class="ListColRight">%d</td></tr><tr class="list_one">
+<td style="background:#DCDADA" class="ListColCenter">Desconhecido</td>
+<td class="ListColCenter">%s</td><td class="ListColRight">%.2f%%</td><td class="ListColRight">%d</td></tr><tr class="list_lvl_2">
+<td class="ListColHeaderCenter">Total</td>
+<td class="ListColCenter">%s</td><td class="ListColRight"></td><td class="ListColRight">%d</td></tr></tbody></table>"""%(sec_to_time(oktime),okperc,okevent, sec_to_time(warntime),warnperc,warnevent, sec_to_time(crittime),critperc,critevent, sec_to_time(unknowtime),unknowperc,unknowevent, sec_to_time(totaltempo),totalalertas)
+print data.replace('\n','')
+print "|okevent=%d warnevent=%d critevent=%d unknowevent=%d"%(okevent,warnevent,critevent,unknowevent)
+sys.exit(sinal)

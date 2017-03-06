@@ -1,0 +1,310 @@
+[1488682800] LOG ROTATION: DAILY
+[1488682800] LOG VERSION: 2.0
+[1488682800] CURRENT HOST STATE: _Module_Meta;UP;HARD;1;
+[1488682800] CURRENT HOST STATE: cmp-prod-server-01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.09 ms
+[1488682800] CURRENT HOST STATE: disponibilidade_canopus_tim;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 178.71 ms
+[1488682800] CURRENT HOST STATE: disponibilidade_fundacao_emb;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 145.10 ms
+[1488682800] CURRENT HOST STATE: disponibilidade_fundacao_rnp;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 111.76 ms
+[1488682800] CURRENT HOST STATE: disponibilidade_rebocadores_eqt;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 224.48 ms
+[1488682800] CURRENT HOST STATE: disponibilidade_rebocadores_oi;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 85.40 ms
+[1488682800] CURRENT HOST STATE: disponibilidade_udi_oi;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 94.12 ms
+[1488682800] CURRENT HOST STATE: disponibilidade_udi_tvn;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 83.74 ms
+[1488682800] CURRENT HOST STATE: fw-prod-nwavgma-01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 153.60 ms
+[1488682800] CURRENT SERVICE STATE: _Module_Meta;meta_2;OK;HARD;1;(null)
+[1488682800] CURRENT SERVICE STATE: disponibilidade_canopus_tim;Check_fw_186.229.16.194;OK;HARD;1;OK - 186.229.16.194: rta 178.874ms, lost 0%
+[1488682800] CURRENT SERVICE STATE: disponibilidade_canopus_tim;Check_rot_186.229.16.193;OK;HARD;1;OK - 186.229.16.193: rta 179.907ms, lost 0%
+[1488682800] CURRENT SERVICE STATE: disponibilidade_canopus_tim;Disponibilidade;OK;HARD;1;OK - 186.229.16.194: rta 178.763ms, lost 0%
+[1488682800] CURRENT SERVICE STATE: disponibilidade_fundacao_emb;Check_fw_201.65.76.130;OK;HARD;1;OK - 201.65.76.130: rta 144.765ms, lost 0%
+[1488682800] CURRENT SERVICE STATE: disponibilidade_fundacao_emb;Check_rot_201.65.76.129;OK;HARD;1;OK - 201.65.76.129: rta 134.076ms, lost 0%
+[1488682800] CURRENT SERVICE STATE: disponibilidade_fundacao_emb;Disponibilidade;OK;HARD;1;OK - 201.65.76.130: rta 144.907ms, lost 0%
+[1488682800] CURRENT SERVICE STATE: disponibilidade_fundacao_rnp;Check_fw_200.137.134.162;OK;HARD;1;OK - 200.137.134.162: rta 111.712ms, lost 0%
+[1488682800] CURRENT SERVICE STATE: disponibilidade_fundacao_rnp;Check_rot_200.137.134.161;OK;HARD;1;OK - 200.137.134.161: rta 111.484ms, lost 0%
+[1488682800] CURRENT SERVICE STATE: disponibilidade_fundacao_rnp;Disponibilidade;OK;HARD;1;OK - 200.137.134.162: rta 111.929ms, lost 0%
+[1488682800] CURRENT SERVICE STATE: disponibilidade_rebocadores_eqt;Check_fw_187.72.195.143;OK;HARD;1;OK - 187.72.195.143: rta 224.273ms, lost 0%
+[1488682800] CURRENT SERVICE STATE: disponibilidade_rebocadores_eqt;Disponibilidade;OK;HARD;1;OK - 187.72.195.143: rta 224.196ms, lost 0%
+[1488682800] CURRENT SERVICE STATE: disponibilidade_rebocadores_oi;Check_fw_200.216.199.34;OK;HARD;1;OK - 200.216.199.34: rta 84.896ms, lost 0%
+[1488682800] CURRENT SERVICE STATE: disponibilidade_rebocadores_oi;Disponibilidade;OK;HARD;1;OK - 200.216.199.34: rta 85.057ms, lost 0%
+[1488682800] CURRENT SERVICE STATE: disponibilidade_udi_oi;Check_rot_200.141.203.73;OK;HARD;1;OK - 200.141.203.73: rta 94.141ms, lost 0%
+[1488682800] CURRENT SERVICE STATE: disponibilidade_udi_oi;Disponibilidade;OK;HARD;1;OK - 200.141.203.73: rta 94.224ms, lost 0%
+[1488682800] CURRENT SERVICE STATE: disponibilidade_udi_tvn;Check_rot_187.60.120.9;OK;HARD;1;OK - 187.60.120.9: rta 83.887ms, lost 0%
+[1488682800] CURRENT SERVICE STATE: disponibilidade_udi_tvn;Disponibilidade;OK;HARD;1;OK - 187.60.120.9: rta 83.509ms, lost 0%
+[1488682800] CURRENT SERVICE STATE: fw-prod-nwavgma-01;CPU;OK;HARD;1;CPU OK - Usage: 1%
+[1488682800] CURRENT SERVICE STATE: fw-prod-nwavgma-01;DISK;OK;HARD;1;DISK USAGE OK - Usage: 3% (Total: 54.22 GiB - Free: 48.29 GiB)
+[1488682800] CURRENT SERVICE STATE: fw-prod-nwavgma-01;Data_e_Hora;OK;HARD;1;Hora atual do Host: 2017-3-4 23:57:39.9 -3:0
+[1488682800] CURRENT SERVICE STATE: fw-prod-nwavgma-01;Disponibilidade;OK;HARD;1;OK - 10.33.44.1: rta 153.368ms, lost 0%
+[1488682800] CURRENT SERVICE STATE: fw-prod-nwavgma-01;Estado_PFILTER;OK;HARD;1;SNMP OK - pfilter 53
+[1488682800] CURRENT SERVICE STATE: fw-prod-nwavgma-01;FreeBSD_version;OK;HARD;1;SNMP OK - version "FreeBSD: FreeBSD 10.3-RELEASE-p5 #0 7307492(RELENG_2_3_2): Tue J"
+[1488682800] CURRENT SERVICE STATE: fw-prod-nwavgma-01;LOAD;OK;HARD;1;LOAD AVERAGE OK - 0.24,0.13,0.10
+[1488682800] CURRENT SERVICE STATE: fw-prod-nwavgma-01;MEMORIA;OK;HARD;1;MEMORY OK - Usage: 18% (Swap: 0%)
+[1488682800] CURRENT SERVICE STATE: fw-prod-nwavgma-01;Network-em0-dmz1_1033440_24_3344;OK;HARD;1;Average IN: 0.9KBits/s (0.00%), Average OUT: 0.1KBits/s (0.00%)<br>Total RX: 1241.86 MBytes, Total TX: 4.69 MBytes
+[1488682800] CURRENT SERVICE STATE: fw-prod-nwavgma-01;Network-em1-mgm1_1033450_24_3345;OK;HARD;1;Average IN: 0KBits/s (0.00%), Average OUT: 0KBits/s (0.00%)<br>Total RX: 26.92 MBytes, Total TX: 11.69 MBytes
+[1488682800] CURRENT SERVICE STATE: fw-prod-nwavgma-01;Network-em3-int1_1033400_24_3340;OK;HARD;1;Average IN: 0.5KBits/s (0.00%), Average OUT: 0.5KBits/s (0.00%)<br>Total RX: 3673.06 MBytes, Total TX: 3022.68 MBytes
+[1488682800] CURRENT SERVICE STATE: fw-prod-nwavgma-01;Network-em4-vip1_10_33_42_0_25_3342;OK;HARD;1;Average IN: 1.8KBits/s (0.00%), Average OUT: 1.4KBits/s (0.00%)<br>Total RX: 2812.64 MBytes, Total TX: 2435.50 MBytes
+[1488682800] CURRENT SERVICE STATE: fw-prod-nwavgma-01;Network-em5-wic1_10_33_43_128_25_3128;OK;HARD;1;Average IN: 0KBits/s (0.00%), Average OUT: 0KBits/s (0.00%)<br>Total RX: 2048.15 MBytes, Total TX: 1482.36 MBytes
+[1488682800] CURRENT SERVICE STATE: fw-prod-nwavgma-01;Network-em6-wid1_10334164_26_164;OK;HARD;1;Average IN: 0KBits/s (0.00%), Average OUT: 0KBits/s (0.00%)<br>Total RX: 3083.90 MBytes, Total TX: 11.05 MBytes
+[1488682800] CURRENT SERVICE STATE: fw-prod-nwavgma-01;Network-em8-dev1_103341128_26_1128;OK;HARD;1;Average IN: 0KBits/s (0.00%), Average OUT: 0.1KBits/s (0.00%)<br>Total RX: 84.65 MBytes, Total TX: 262.41 MBytes
+[1488682800] CURRENT SERVICE STATE: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;OK;HARD;1;Average IN: 5.6KBits/s (0.04%), Average OUT: 3.2KBits/s (0.03%)<br>Total RX: 3832.73 MBytes, Total TX: 1225.70 MBytes
+[1488682800] CURRENT SERVICE STATE: fw-prod-nwavgma-01;Network-ovpns1-Vpn;OK;HARD;1;Average IN: 0.5KBits/s (0.00%), Average OUT: 0.5KBits/s (0.00%)<br>Total RX: 447.83 MBytes, Total TX: 3448.59 MBytes
+[1488682800] CURRENT SERVICE STATE: fw-prod-nwavgma-01;Numero_Processos;OK;HARD;1;SNMP OK - process_number 58
+[1488682800] CURRENT SERVICE STATE: fw-prod-nwavgma-01;PFILTER_CORRESPONDENCIAS;OK;HARD;1;SNMP OK - pfilter_rmatches 35095725
+[1488682800] CURRENT SERVICE STATE: fw-prod-nwavgma-01;PFILTER_INSERSOES;OK;HARD;1;SNMP OK - pfilter_inserts_stats 25743426
+[1488682800] CURRENT SERVICE STATE: fw-prod-nwavgma-01;PFILTER_REMOVIDOS;OK;HARD;1;SNMP OK - pfilter_removal_stats 25743281
+[1488682800] CURRENT SERVICE STATE: fw-prod-nwavgma-01;Usuarios;OK;HARD;1;SNMP OK - usuarios 0
+[1488682911] Auto-save of retention data completed successfully.
+[1488686511] Auto-save of retention data completed successfully.
+[1488690111] Auto-save of retention data completed successfully.
+[1488693711] Auto-save of retention data completed successfully.
+[1488697311] Auto-save of retention data completed successfully.
+[1488700911] Auto-save of retention data completed successfully.
+[1488704511] Auto-save of retention data completed successfully.
+[1488708111] Auto-save of retention data completed successfully.
+[1488711149] EXTERNAL COMMAND: RESTART_PROGRAM;
+[1488711149] EXTERNAL COMMAND: RESTART_PROGRAM;
+[1488711149] PROGRAM_RESTART event encountered, restarting...
+[1488711149] ndomod: Shutdown complete.
+[1488711149] Event broker module '/usr/local/nagios/bin/ndomod.o' deinitialized successfully.
+[1488711149] Nagios 3.4.4 starting... (PID=22812)
+[1488711149] Local time is Sun Mar 05 07:52:29 BRT 2017
+[1488711149] LOG VERSION: 2.0
+[1488711149] ndomod: NDOMOD-MERETHIS 1.4b9-merethis (10-27-2009) Copyright (c) 2009 Nagios Core Development Team and Community Contributors
+[1488711149] ndomod: Successfully connected to data sink.  0 queued items to flush.
+[1488711149] Event broker module '/usr/local/nagios/bin/ndomod.o' initialized successfully.
+[1488711149] Warning: Service 'Check_fw_186.229.16.194' on host 'disponibilidade_canopus_tim' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Check_rot_186.229.16.193' on host 'disponibilidade_canopus_tim' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Disponibilidade' on host 'disponibilidade_canopus_tim' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Check_fw_201.65.76.130' on host 'disponibilidade_fundacao_emb' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Check_rot_201.65.76.129' on host 'disponibilidade_fundacao_emb' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Disponibilidade' on host 'disponibilidade_fundacao_emb' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Check_fw_200.137.134.162' on host 'disponibilidade_fundacao_rnp' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Check_rot_200.137.134.161' on host 'disponibilidade_fundacao_rnp' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Disponibilidade' on host 'disponibilidade_fundacao_rnp' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Check_fw_10.33.47.1' on host 'disponibilidade_nwavgma_net' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Check_rot_net_181.222.26.192' on host 'disponibilidade_nwavgma_net' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Disponibilidade' on host 'disponibilidade_nwavgma_net' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Check_fw_187.72.195.143' on host 'disponibilidade_rebocadores_eqt' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Disponibilidade' on host 'disponibilidade_rebocadores_eqt' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Check_fw_200.216.199.34' on host 'disponibilidade_rebocadores_oi' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Disponibilidade' on host 'disponibilidade_rebocadores_oi' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Check_rot_200.141.203.73' on host 'disponibilidade_udi_oi' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Disponibilidade' on host 'disponibilidade_udi_oi' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Check_rot_187.60.120.9' on host 'disponibilidade_udi_tvn' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Disponibilidade' on host 'disponibilidade_udi_tvn' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'CPU' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'DISK' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Data_e_Hora' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Disponibilidade' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Estado_PFILTER' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'FreeBSD_version' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'LOAD' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'MEMORIA' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Network-em0-dmz1_1033440_24_3344' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Network-em1-mgm1_1033450_24_3345' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Network-em3-int1_1033400_24_3340' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Network-em4-vip1_10_33_42_0_25_3342' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Network-em5-wic1_10_33_43_128_25_3128' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Network-em6-wid1_10334164_26_164' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Network-em8-dev1_103341128_26_1128' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Network-em9-net1_192_168_0_2_24_4001' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Network-ovpns1-Vpn' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Numero_Processos' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'PFILTER_CORRESPONDENCIAS' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'PFILTER_INSERSOES' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'PFILTER_REMOVIDOS' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488711149] Warning: Service 'Usuarios' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488711149] Warning: Host 'cmp-prod-server-01' has no services associated with it!
+[1488711149] Warning: Host 'disponibilidade_canopus_tim' has no default contacts or contactgroups defined!
+[1488711149] Warning: Host 'disponibilidade_fundacao_emb' has no default contacts or contactgroups defined!
+[1488711149] Warning: Host 'disponibilidade_fundacao_rnp' has no default contacts or contactgroups defined!
+[1488711149] Warning: Host 'disponibilidade_nwavgma_net' has no default contacts or contactgroups defined!
+[1488711149] Warning: Host 'disponibilidade_rebocadores_eqt' has no default contacts or contactgroups defined!
+[1488711149] Warning: Host 'disponibilidade_rebocadores_oi' has no default contacts or contactgroups defined!
+[1488711149] Warning: Host 'disponibilidade_udi_oi' has no default contacts or contactgroups defined!
+[1488711149] Warning: Host 'disponibilidade_udi_tvn' has no default contacts or contactgroups defined!
+[1488711149] Warning: Host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488711149] Warning: Contact 'Alan_Dutra' has no service notification time period defined!
+[1488711149] Warning: Contact 'Alan_Dutra' has no host notification time period defined!
+[1488711149] Warning: Contact 'Joao_Carlos' has no service notification time period defined!
+[1488711149] Warning: Contact 'Joao_Carlos' has no host notification time period defined!
+[1488711149] Warning: Contact 'Josimar_Numes' has no service notification time period defined!
+[1488711149] Warning: Contact 'Josimar_Numes' has no host notification time period defined!
+[1488711149] Warning: Contact 'Marcelo_Bene_WorldTec' has no service notification time period defined!
+[1488711149] Warning: Contact 'Marcelo_Bene_WorldTec' has no host notification time period defined!
+[1488711149] INITIAL HOST STATE: _Module_Meta;UP;HARD;1;
+[1488711149] INITIAL HOST STATE: cmp-prod-server-01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.08 ms
+[1488711149] INITIAL HOST STATE: disponibilidade_canopus_tim;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 179.12 ms
+[1488711149] INITIAL HOST STATE: disponibilidade_fundacao_emb;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 146.17 ms
+[1488711149] INITIAL HOST STATE: disponibilidade_fundacao_rnp;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 111.82 ms
+[1488711149] INITIAL HOST STATE: disponibilidade_nwavgma_net;UP;HARD;1;
+[1488711149] INITIAL HOST STATE: disponibilidade_rebocadores_eqt;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 229.16 ms
+[1488711149] INITIAL HOST STATE: disponibilidade_rebocadores_oi;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 84.94 ms
+[1488711149] INITIAL HOST STATE: disponibilidade_udi_oi;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 94.16 ms
+[1488711149] INITIAL HOST STATE: disponibilidade_udi_tvn;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 85.07 ms
+[1488711149] INITIAL HOST STATE: fw-prod-nwavgma-01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 154.27 ms
+[1488711149] INITIAL SERVICE STATE: _Module_Meta;meta_2;OK;HARD;1;(null)
+[1488711149] INITIAL SERVICE STATE: disponibilidade_canopus_tim;Check_fw_186.229.16.194;OK;HARD;1;OK - 186.229.16.194: rta 178.804ms, lost 0%
+[1488711149] INITIAL SERVICE STATE: disponibilidade_canopus_tim;Check_rot_186.229.16.193;OK;HARD;1;OK - 186.229.16.193: rta 179.735ms, lost 0%
+[1488711149] INITIAL SERVICE STATE: disponibilidade_canopus_tim;Disponibilidade;OK;HARD;1;OK - 186.229.16.194: rta 178.942ms, lost 0%
+[1488711149] INITIAL SERVICE STATE: disponibilidade_fundacao_emb;Check_fw_201.65.76.130;OK;HARD;1;OK - 201.65.76.130: rta 144.765ms, lost 0%
+[1488711149] INITIAL SERVICE STATE: disponibilidade_fundacao_emb;Check_rot_201.65.76.129;OK;HARD;1;OK - 201.65.76.129: rta 133.927ms, lost 0%
+[1488711149] INITIAL SERVICE STATE: disponibilidade_fundacao_emb;Disponibilidade;OK;HARD;1;OK - 201.65.76.130: rta 144.780ms, lost 0%
+[1488711149] INITIAL SERVICE STATE: disponibilidade_fundacao_rnp;Check_fw_200.137.134.162;OK;HARD;1;OK - 200.137.134.162: rta 111.618ms, lost 0%
+[1488711149] INITIAL SERVICE STATE: disponibilidade_fundacao_rnp;Check_rot_200.137.134.161;OK;HARD;1;OK - 200.137.134.161: rta 111.500ms, lost 0%
+[1488711149] INITIAL SERVICE STATE: disponibilidade_fundacao_rnp;Disponibilidade;OK;HARD;1;OK - 200.137.134.162: rta 111.834ms, lost 0%
+[1488711149] INITIAL SERVICE STATE: disponibilidade_nwavgma_net;Check_fw_10.33.47.1;OK;HARD;1;(null)
+[1488711149] INITIAL SERVICE STATE: disponibilidade_nwavgma_net;Check_rot_net_181.222.26.192;OK;HARD;1;(null)
+[1488711149] INITIAL SERVICE STATE: disponibilidade_nwavgma_net;Disponibilidade;OK;HARD;1;(null)
+[1488711149] INITIAL SERVICE STATE: disponibilidade_rebocadores_eqt;Check_fw_187.72.195.143;OK;HARD;1;OK - 187.72.195.143: rta 229.590ms, lost 0%
+[1488711149] INITIAL SERVICE STATE: disponibilidade_rebocadores_eqt;Disponibilidade;OK;HARD;1;OK - 187.72.195.143: rta 229.477ms, lost 0%
+[1488711149] INITIAL SERVICE STATE: disponibilidade_rebocadores_oi;Check_fw_200.216.199.34;OK;HARD;1;OK - 200.216.199.34: rta 84.922ms, lost 0%
+[1488711149] INITIAL SERVICE STATE: disponibilidade_rebocadores_oi;Disponibilidade;OK;HARD;1;OK - 200.216.199.34: rta 84.954ms, lost 0%
+[1488711149] INITIAL SERVICE STATE: disponibilidade_udi_oi;Check_rot_200.141.203.73;OK;HARD;1;OK - 200.141.203.73: rta 94.060ms, lost 0%
+[1488711149] INITIAL SERVICE STATE: disponibilidade_udi_oi;Disponibilidade;OK;HARD;1;OK - 200.141.203.73: rta 94.081ms, lost 0%
+[1488711149] INITIAL SERVICE STATE: disponibilidade_udi_tvn;Check_rot_187.60.120.9;OK;HARD;1;OK - 187.60.120.9: rta 83.699ms, lost 0%
+[1488711149] INITIAL SERVICE STATE: disponibilidade_udi_tvn;Disponibilidade;OK;HARD;1;OK - 187.60.120.9: rta 83.987ms, lost 0%
+[1488711149] INITIAL SERVICE STATE: fw-prod-nwavgma-01;CPU;OK;HARD;1;CPU OK - Usage: 1%
+[1488711149] INITIAL SERVICE STATE: fw-prod-nwavgma-01;DISK;OK;HARD;1;DISK USAGE OK - Usage: 3% (Total: 54.22 GiB - Free: 48.29 GiB)
+[1488711149] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Data_e_Hora;OK;HARD;1;Hora atual do Host: 2017-3-5 7:47:39.2 -3:0
+[1488711149] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Disponibilidade;OK;HARD;1;OK - 10.33.44.1: rta 152.424ms, lost 0%
+[1488711149] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Estado_PFILTER;OK;HARD;1;SNMP OK - pfilter 53
+[1488711149] INITIAL SERVICE STATE: fw-prod-nwavgma-01;FreeBSD_version;OK;HARD;1;SNMP OK - version "FreeBSD: FreeBSD 10.3-RELEASE-p5 #0 7307492(RELENG_2_3_2): Tue J"
+[1488711149] INITIAL SERVICE STATE: fw-prod-nwavgma-01;LOAD;OK;HARD;1;LOAD AVERAGE OK - 0.16,0.12,0.13
+[1488711149] INITIAL SERVICE STATE: fw-prod-nwavgma-01;MEMORIA;OK;HARD;1;MEMORY OK - Usage: 18% (Swap: 0%)
+[1488711149] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Network-em0-dmz1_1033440_24_3344;OK;HARD;1;Average IN: 1KBits/s (0.00%), Average OUT: 0.1KBits/s (0.00%)<br>Total RX: 1245.14 MBytes, Total TX: 5.62 MBytes
+[1488711149] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Network-em1-mgm1_1033450_24_3345;OK;HARD;1;Average IN: 0KBits/s (0.00%), Average OUT: 0KBits/s (0.00%)<br>Total RX: 26.94 MBytes, Total TX: 11.69 MBytes
+[1488711149] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Network-em3-int1_1033400_24_3340;OK;HARD;1;Average IN: 0.8KBits/s (0.00%), Average OUT: 0.8KBits/s (0.00%)<br>Total RX: 3674.53 MBytes, Total TX: 3024.16 MBytes
+[1488711149] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Network-em4-vip1_10_33_42_0_25_3342;OK;HARD;1;Average IN: 1.9KBits/s (0.00%), Average OUT: 1.8KBits/s (0.00%)<br>Total RX: 2817.61 MBytes, Total TX: 2439.78 MBytes
+[1488711149] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Network-em5-wic1_10_33_43_128_25_3128;OK;HARD;1;Average IN: 0KBits/s (0.00%), Average OUT: 0KBits/s (0.00%)<br>Total RX: 2048.15 MBytes, Total TX: 1482.36 MBytes
+[1488711149] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Network-em6-wid1_10334164_26_164;OK;HARD;1;Average IN: 0KBits/s (0.00%), Average OUT: 0KBits/s (0.00%)<br>Total RX: 3083.90 MBytes, Total TX: 11.05 MBytes
+[1488711149] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Network-em8-dev1_103341128_26_1128;OK;HARD;1;Average IN: 0KBits/s (0.00%), Average OUT: 0.1KBits/s (0.00%)<br>Total RX: 84.72 MBytes, Total TX: 262.62 MBytes
+[1488711149] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;OK;HARD;1;Average IN: 8.5KBits/s (0.07%), Average OUT: 38.8KBits/s (0.30%)<br>Total RX: 3857.61 MBytes, Total TX: 1242.58 MBytes
+[1488711149] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Network-ovpns1-Vpn;OK;HARD;1;Average IN: 1.8KBits/s (0.00%), Average OUT: 33.7KBits/s (0.03%)<br>Total RX: 450.20 MBytes, Total TX: 3458.18 MBytes
+[1488711149] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Numero_Processos;OK;HARD;1;SNMP OK - process_number 61
+[1488711149] INITIAL SERVICE STATE: fw-prod-nwavgma-01;PFILTER_CORRESPONDENCIAS;OK;HARD;1;SNMP OK - pfilter_rmatches 35126962
+[1488711149] INITIAL SERVICE STATE: fw-prod-nwavgma-01;PFILTER_INSERSOES;OK;HARD;1;SNMP OK - pfilter_inserts_stats 25755230
+[1488711149] INITIAL SERVICE STATE: fw-prod-nwavgma-01;PFILTER_REMOVIDOS;OK;HARD;1;SNMP OK - pfilter_removal_stats 25755183
+[1488711149] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Usuarios;OK;HARD;1;SNMP OK - usuarios 1
+[1488714749] Auto-save of retention data completed successfully.
+[1488715149] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;1;WARNING - 10.33.44.1: rta 334.076ms, lost 0%
+[1488715209] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;2;WARNING - 10.33.44.1: rta 217.593ms, lost 0%
+[1488715269] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;HARD;3;WARNING - 10.33.44.1: rta 300.020ms, lost 0%
+[1488715709] SERVICE ALERT: disponibilidade_udi_tvn;Disponibilidade;WARNING;SOFT;1;WARNING - 187.60.120.9: rta 90.074ms, lost 20%
+[1488715759] SERVICE ALERT: disponibilidade_udi_tvn;Disponibilidade;OK;SOFT;2;OK - 187.60.120.9: rta 84.408ms, lost 0%
+[1488717669] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;OK;HARD;3;OK - 10.33.44.1: rta 185.394ms, lost 0%
+[1488717969] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;1;WARNING - 10.33.44.1: rta 345.296ms, lost 0%
+[1488718029] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;2;WARNING - 10.33.44.1: rta 351.203ms, lost 0%
+[1488718089] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;HARD;3;WARNING - 10.33.44.1: rta 273.582ms, lost 0%
+[1488718349] Auto-save of retention data completed successfully.
+[1488721214] SERVICE ALERT: disponibilidade_nwavgma_net;Check_rot_net_181.222.26.192;WARNING;SOFT;1;WARNING - 181.222.26.192: rta 512.088ms, lost 33%
+[1488721264] SERVICE ALERT: disponibilidade_nwavgma_net;Check_rot_net_181.222.26.192;OK;SOFT;2;OK - 181.222.26.192: rta 267.970ms, lost 0%
+[1488721389] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;OK;HARD;3;OK - 10.33.44.1: rta 195.943ms, lost 0%
+[1488721689] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;1;WARNING - 10.33.44.1: rta 296.820ms, lost 0%
+[1488721749] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;2;WARNING - 10.33.44.1: rta 221.773ms, lost 0%
+[1488721809] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;HARD;3;WARNING - 10.33.44.1: rta 281.835ms, lost 0%
+[1488721949] Auto-save of retention data completed successfully.
+[1488724769] SERVICE ALERT: disponibilidade_udi_tvn;Disponibilidade;WARNING;SOFT;1;WARNING - 187.60.120.9: rta 91.151ms, lost 20%
+[1488724819] SERVICE ALERT: disponibilidade_udi_tvn;Disponibilidade;OK;SOFT;2;OK - 187.60.120.9: rta 91.194ms, lost 0%
+[1488724874] SERVICE ALERT: disponibilidade_nwavgma_net;Check_rot_net_181.222.26.192;CRITICAL;SOFT;1;CRITICAL - 181.222.26.192: rta 7438.317ms, lost 0%
+[1488724924] SERVICE ALERT: disponibilidade_nwavgma_net;Check_rot_net_181.222.26.192;OK;SOFT;2;OK - 181.222.26.192: rta 334.423ms, lost 0%
+[1488725054] SERVICE ALERT: disponibilidade_udi_tvn;Check_rot_187.60.120.9;WARNING;SOFT;1;WARNING - 187.60.120.9: rta 92.205ms, lost 33%
+[1488725104] SERVICE ALERT: disponibilidade_udi_tvn;Check_rot_187.60.120.9;OK;SOFT;2;OK - 187.60.120.9: rta 89.486ms, lost 0%
+[1488725549] Auto-save of retention data completed successfully.
+[1488726329] SERVICE ALERT: disponibilidade_udi_tvn;Disponibilidade;WARNING;SOFT;1;WARNING - 187.60.120.9: rta 86.090ms, lost 20%
+[1488726379] SERVICE ALERT: disponibilidade_udi_tvn;Disponibilidade;OK;SOFT;2;OK - 187.60.120.9: rta 86.074ms, lost 0%
+[1488727214] SERVICE ALERT: disponibilidade_udi_tvn;Check_rot_187.60.120.9;WARNING;SOFT;1;WARNING - 187.60.120.9: rta 92.061ms, lost 33%
+[1488727274] SERVICE ALERT: disponibilidade_udi_tvn;Check_rot_187.60.120.9;WARNING;SOFT;2;WARNING - 187.60.120.9: rta 89.293ms, lost 33%
+[1488727324] SERVICE ALERT: disponibilidade_udi_tvn;Check_rot_187.60.120.9;OK;SOFT;3;OK - 187.60.120.9: rta 92.078ms, lost 0%
+[1488728109] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;OK;HARD;3;OK - 10.33.44.1: rta 191.216ms, lost 0%
+[1488728409] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;1;WARNING - 10.33.44.1: rta 289.660ms, lost 0%
+[1488728469] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;2;WARNING - 10.33.44.1: rta 240.836ms, lost 0%
+[1488728529] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;HARD;3;WARNING - 10.33.44.1: rta 352.401ms, lost 0%
+[1488728789] SERVICE ALERT: disponibilidade_udi_tvn;Disponibilidade;WARNING;SOFT;1;WARNING - 187.60.120.9: rta 86.812ms, lost 20%
+[1488728849] SERVICE ALERT: disponibilidade_udi_tvn;Disponibilidade;WARNING;SOFT;2;WARNING - 187.60.120.9: rta 87.216ms, lost 20%
+[1488728899] SERVICE ALERT: disponibilidade_udi_tvn;Disponibilidade;OK;SOFT;3;OK - 187.60.120.9: rta 84.738ms, lost 0%
+[1488729149] Auto-save of retention data completed successfully.
+[1488731534] SERVICE ALERT: disponibilidade_udi_tvn;Check_rot_187.60.120.9;WARNING;SOFT;1;WARNING - 187.60.120.9: rta 88.718ms, lost 33%
+[1488731584] SERVICE ALERT: disponibilidade_udi_tvn;Check_rot_187.60.120.9;OK;SOFT;2;OK - 187.60.120.9: rta 84.038ms, lost 0%
+[1488731609] SERVICE ALERT: disponibilidade_udi_tvn;Disponibilidade;WARNING;SOFT;1;WARNING - 187.60.120.9: rta 86.090ms, lost 20%
+[1488731659] SERVICE ALERT: disponibilidade_udi_tvn;Disponibilidade;OK;SOFT;2;OK - 187.60.120.9: rta 85.695ms, lost 0%
+[1488731829] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;OK;HARD;3;OK - 10.33.44.1: rta 192.844ms, lost 0%
+[1488732129] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;1;WARNING - 10.33.44.1: rta 223.736ms, lost 0%
+[1488732189] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;2;WARNING - 10.33.44.1: rta 353.573ms, lost 0%
+[1488732249] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;HARD;3;WARNING - 10.33.44.1: rta 242.890ms, lost 0%
+[1488732749] Auto-save of retention data completed successfully.
+[1488732849] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;OK;HARD;3;OK - 10.33.44.1: rta 161.921ms, lost 0%
+[1488733749] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;1;WARNING - 10.33.44.1: rta 256.347ms, lost 0%
+[1488733809] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;2;WARNING - 10.33.44.1: rta 311.996ms, lost 0%
+[1488733869] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;HARD;3;WARNING - 10.33.44.1: rta 326.225ms, lost 0%
+[1488736349] Auto-save of retention data completed successfully.
+[1488739949] Auto-save of retention data completed successfully.
+[1488740469] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;OK;HARD;3;OK - 10.33.44.1: rta 175.158ms, lost 0%
+[1488740769] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;1;WARNING - 10.33.44.1: rta 244.088ms, lost 0%
+[1488740829] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;2;WARNING - 10.33.44.1: rta 215.541ms, lost 0%
+[1488740889] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;HARD;3;WARNING - 10.33.44.1: rta 339.456ms, lost 0%
+[1488741489] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;OK;HARD;3;OK - 10.33.44.1: rta 155.244ms, lost 0%
+[1488741789] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;1;WARNING - 10.33.44.1: rta 361.546ms, lost 0%
+[1488741849] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;2;WARNING - 10.33.44.1: rta 342.437ms, lost 0%
+[1488741909] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;HARD;3;WARNING - 10.33.44.1: rta 226.727ms, lost 0%
+[1488742211] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;OK;HARD;3;OK - 10.33.44.1: rta 192.889ms, lost 0%
+[1488742509] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;1;WARNING - 10.33.44.1: rta 295.973ms, lost 0%
+[1488742569] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;2;WARNING - 10.33.44.1: rta 270.442ms, lost 0%
+[1488742629] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;HARD;3;WARNING - 10.33.44.1: rta 311.391ms, lost 0%
+[1488743549] Auto-save of retention data completed successfully.
+[1488743894] SERVICE ALERT: disponibilidade_udi_tvn;Check_rot_187.60.120.9;WARNING;SOFT;1;WARNING - 187.60.120.9: rta 91.531ms, lost 33%
+[1488743944] SERVICE ALERT: disponibilidade_udi_tvn;Check_rot_187.60.120.9;OK;SOFT;2;OK - 187.60.120.9: rta 85.972ms, lost 0%
+[1488744729] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;OK;HARD;3;OK - 10.33.44.1: rta 160.731ms, lost 0%
+[1488745029] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;1;WARNING - 10.33.44.1: rta 304.095ms, lost 0%
+[1488745089] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;2;WARNING - 10.33.44.1: rta 333.937ms, lost 0%
+[1488745149] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;OK;SOFT;3;OK - 10.33.44.1: rta 179.260ms, lost 0%
+[1488745449] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;1;WARNING - 10.33.44.1: rta 262.987ms, lost 0%
+[1488745509] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;2;WARNING - 10.33.44.1: rta 342.560ms, lost 0%
+[1488745569] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;OK;SOFT;3;OK - 10.33.44.1: rta 198.242ms, lost 0%
+[1488745869] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;1;WARNING - 10.33.44.1: rta 316.719ms, lost 0%
+[1488745929] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;2;WARNING - 10.33.44.1: rta 347.349ms, lost 0%
+[1488745989] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;HARD;3;WARNING - 10.33.44.1: rta 263.555ms, lost 0%
+[1488746954] SERVICE ALERT: disponibilidade_udi_tvn;Check_rot_187.60.120.9;WARNING;SOFT;1;WARNING - 187.60.120.9: rta 85.543ms, lost 33%
+[1488747004] SERVICE ALERT: disponibilidade_udi_tvn;Check_rot_187.60.120.9;OK;SOFT;2;OK - 187.60.120.9: rta 83.912ms, lost 0%
+[1488747149] Auto-save of retention data completed successfully.
+[1488749669] SERVICE ALERT: disponibilidade_udi_tvn;Disponibilidade;WARNING;SOFT;1;WARNING - 187.60.120.9: rta 141.957ms, lost 20%
+[1488749719] SERVICE ALERT: disponibilidade_udi_tvn;Disponibilidade;OK;SOFT;2;OK - 187.60.120.9: rta 87.727ms, lost 0%
+[1488750749] Auto-save of retention data completed successfully.
+[1488750789] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;OK;HARD;3;OK - 10.33.44.1: rta 199.245ms, lost 0%
+[1488751089] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;1;WARNING - 10.33.44.1: rta 342.252ms, lost 0%
+[1488751149] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;2;WARNING - 10.33.44.1: rta 314.595ms, lost 0%
+[1488751209] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;HARD;3;WARNING - 10.33.44.1: rta 207.569ms, lost 0%
+[1488752710] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;OK;HARD;3;OK - 10.33.44.1: rta 198.169ms, lost 0%
+[1488753009] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;1;WARNING - 10.33.44.1: rta 353.550ms, lost 0%
+[1488753070] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;2;WARNING - 10.33.44.1: rta 222.769ms, lost 0%
+[1488753129] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;HARD;3;WARNING - 10.33.44.1: rta 266.959ms, lost 0%
+[1488753729] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;OK;HARD;3;OK - 10.33.44.1: rta 166.610ms, lost 0%
+[1488754329] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;1;WARNING - 10.33.44.1: rta 310.265ms, lost 0%
+[1488754349] Auto-save of retention data completed successfully.
+[1488754389] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;2;WARNING - 10.33.44.1: rta 353.348ms, lost 0%
+[1488754449] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;HARD;3;WARNING - 10.33.44.1: rta 225.734ms, lost 0%
+[1488756914] SERVICE ALERT: disponibilidade_udi_tvn;Check_rot_187.60.120.9;WARNING;SOFT;1;WARNING - 187.60.120.9: rta 88.634ms, lost 33%
+[1488756964] SERVICE ALERT: disponibilidade_udi_tvn;Check_rot_187.60.120.9;OK;SOFT;2;OK - 187.60.120.9: rta 83.668ms, lost 0%
+[1488757949] Auto-save of retention data completed successfully.
+[1488758174] SERVICE ALERT: disponibilidade_udi_tvn;Check_rot_187.60.120.9;WARNING;SOFT;1;WARNING - 187.60.120.9: rta 88.231ms, lost 33%
+[1488758224] SERVICE ALERT: disponibilidade_udi_tvn;Check_rot_187.60.120.9;OK;SOFT;2;OK - 187.60.120.9: rta 84.025ms, lost 0%
+[1488759849] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;OK;HARD;3;OK - 10.33.44.1: rta 194.932ms, lost 0%
+[1488760149] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;1;WARNING - 10.33.44.1: rta 238.549ms, lost 0%
+[1488760209] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;2;WARNING - 10.33.44.1: rta 274.037ms, lost 0%
+[1488760269] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;HARD;3;WARNING - 10.33.44.1: rta 312.224ms, lost 0%
+[1488761549] Auto-save of retention data completed successfully.
+[1488762069] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;OK;HARD;3;OK - 10.33.44.1: rta 195.492ms, lost 0%
+[1488762369] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;1;WARNING - 10.33.44.1: rta 252.222ms, lost 0%
+[1488762429] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;2;WARNING - 10.33.44.1: rta 303.255ms, lost 0%
+[1488762489] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;HARD;3;WARNING - 10.33.44.1: rta 337.893ms, lost 0%
+[1488763089] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;OK;HARD;3;OK - 10.33.44.1: rta 198.915ms, lost 0%
+[1488763689] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;1;WARNING - 10.33.44.1: rta 335.249ms, lost 0%
+[1488763749] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;OK;SOFT;2;OK - 10.33.44.1: rta 199.359ms, lost 0%
+[1488764049] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;1;WARNING - 10.33.44.1: rta 238.648ms, lost 0%
+[1488764109] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;2;WARNING - 10.33.44.1: rta 259.917ms, lost 0%
+[1488764169] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;HARD;3;WARNING - 10.33.44.1: rta 300.825ms, lost 0%
+[1488764234] SERVICE ALERT: disponibilidade_udi_tvn;Check_rot_187.60.120.9;WARNING;SOFT;1;WARNING - 187.60.120.9: rta 85.099ms, lost 33%
+[1488764284] SERVICE ALERT: disponibilidade_udi_tvn;Check_rot_187.60.120.9;OK;SOFT;2;OK - 187.60.120.9: rta 86.202ms, lost 0%
+[1488765149] Auto-save of retention data completed successfully.
+[1488765369] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;OK;HARD;3;OK - 10.33.44.1: rta 156.209ms, lost 0%
+[1488765669] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;1;WARNING - 10.33.44.1: rta 340.709ms, lost 0%
+[1488765729] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;2;WARNING - 10.33.44.1: rta 217.732ms, lost 0%
+[1488765789] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;HARD;3;WARNING - 10.33.44.1: rta 268.761ms, lost 0%
+[1488768749] Auto-save of retention data completed successfully.

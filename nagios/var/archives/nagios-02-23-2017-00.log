@@ -1,0 +1,23 @@
+[1487795941] Nagios 3.4.4 starting... (PID=1982)
+[1487795941] Local time is Wed Feb 22 20:39:01 UTC 2017
+[1487795941] LOG VERSION: 2.0
+[1487795941] Finished daemonizing... (New PID=1983)
+[1487796171] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;1;Connection refused
+[1487796211] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;1;SWAP CRITICAL - 100% free (0 MB out of 0 MB)
+[1487796231] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;2;Connection refused
+[1487796271] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;2;SWAP CRITICAL - 100% free (0 MB out of 0 MB)
+[1487796291] SERVICE ALERT: localhost;SSH;CRITICAL;SOFT;3;Connection refused
+[1487796331] SERVICE ALERT: localhost;Swap Usage;CRITICAL;SOFT;3;SWAP CRITICAL - 100% free (0 MB out of 0 MB)
+[1487796351] SERVICE ALERT: localhost;SSH;CRITICAL;HARD;4;Connection refused
+[1487796391] SERVICE ALERT: localhost;Swap Usage;CRITICAL;HARD;4;SWAP CRITICAL - 100% free (0 MB out of 0 MB)
+[1487796391] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 100% free (0 MB out of 0 MB)
+[1487797254] Nagios 3.4.4 starting... (PID=5955)
+[1487797254] Local time is Wed Feb 22 21:00:54 UTC 2017
+[1487797254] LOG VERSION: 2.0
+[1487797254] Lockfile '/usr/local/nagios/var/nagios.lock' looks like its already held by another instance of Nagios (PID 1983).  Bailing out...
+[1487799541] Auto-save of retention data completed successfully.
+[1487799991] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 100% free (0 MB out of 0 MB)
+[1487803141] Auto-save of retention data completed successfully.
+[1487803591] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 100% free (0 MB out of 0 MB)
+[1487806741] Auto-save of retention data completed successfully.
+[1487807191] SERVICE NOTIFICATION: nagiosadmin;localhost;Swap Usage;CRITICAL;notify-service-by-email;SWAP CRITICAL - 100% free (0 MB out of 0 MB)

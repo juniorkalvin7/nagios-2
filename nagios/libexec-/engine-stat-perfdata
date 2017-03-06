@@ -1,0 +1,31 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+import os
+
+def size_format(b):
+  if b < 1000:return '%i' % b + 'B'
+  elif 1000 <= b < 1000000:return '%.1f' % float(b/1000) + 'KB'
+  elif 1000000 <= b < 1000000000:return '%.1f' % float(b/1000000) + 'MB'
+  elif 1000000000 <= b < 1000000000000:return '%.1f' % float(b/1000000000) + 'GB'
+  elif 1000000000000 <= b:return '%.1f' % float(b/1000000000000) + 'TB'
+
+perfdata_file='/usr/local/nagios/var/service-perfdata'
+perfdata_read_file='/usr/local/nagios/var/service-perfdata_read'
+perfdata_buf_file='/usr/local/nagios/var/service-perfdata.buff'
+perfdata=0
+perfdata_read=0
+perfdata_buf=0
+buf=True
+if os.path.isfile(perfdata_file):perfdata=os.path.getsize(perfdata_file)
+if os.path.isfile(perfdata_buf_file):perfdata_buf=os.path.getsize(perfdata_buf_file)
+if os.path.isfile(perfdata_read_file):
+  if not os.path.isfile('/tmp/.bufcookie'):open('/tmp/.bufcookie','w').write('')
+  perfdata_read=os.path.getsize(perfdata_read_file)
+if os.path.isfile('/tmp/.bufcookie'):buf=False
+
+  
+if buf==True:
+    print "OK - perfdata=%s, perfdata_buff=%s|perfdata=%dB perfdata_buff=%dB"%(size_format(perfdata),size_format(perfdata_buf),perfdata,perfdata_buf)
+else:
+    print "OK - perfdata=%s, perfdata_read=%s|perfdata=%dB perfdata_read=%dB"%(size_format(perfdata),size_format(perfdata_read),perfdata,perfdata_read)
+

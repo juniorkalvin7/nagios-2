@@ -1,0 +1,416 @@
+[1488423600] LOG ROTATION: DAILY
+[1488423600] LOG VERSION: 2.0
+[1488423600] CURRENT HOST STATE: _Module_Meta;UP;HARD;1;
+[1488423600] CURRENT HOST STATE: cmp-prod-server-01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.06 ms
+[1488423600] CURRENT HOST STATE: disponibilidade_canopus_tim;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 139.35 ms
+[1488423600] CURRENT HOST STATE: disponibilidade_fundacao_emb;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 145.19 ms
+[1488423600] CURRENT HOST STATE: disponibilidade_fundacao_rnp;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 114.24 ms
+[1488423600] CURRENT HOST STATE: disponibilidade_rebocadores_eqt;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 149.09 ms
+[1488423600] CURRENT HOST STATE: disponibilidade_rebocadores_oi;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 87.33 ms
+[1488423600] CURRENT SERVICE STATE: _Module_Meta;meta_2;OK;HARD;1;(null)
+[1488423600] CURRENT SERVICE STATE: disponibilidade_canopus_tim;Check_fw_186.229.16.194;OK;HARD;1;OK - 186.229.16.194: rta 139.253ms, lost 0%
+[1488423600] CURRENT SERVICE STATE: disponibilidade_canopus_tim;Check_rot_186.229.16.193;OK;HARD;1;OK - 186.229.16.193: rta 140.180ms, lost 0%
+[1488423600] CURRENT SERVICE STATE: disponibilidade_canopus_tim;Disponibilidade;OK;HARD;1;OK - 186.229.16.194: rta 139.214ms, lost 0%
+[1488423600] CURRENT SERVICE STATE: disponibilidade_fundacao_emb;Check_fw_201.65.76.130;OK;HARD;1;OK - 201.65.76.130: rta 144.730ms, lost 0%
+[1488423600] CURRENT SERVICE STATE: disponibilidade_fundacao_emb;Check_rot_201.65.76.129;OK;HARD;1;OK - 201.65.76.129: rta 133.750ms, lost 0%
+[1488423600] CURRENT SERVICE STATE: disponibilidade_fundacao_emb;Disponibilidade;OK;HARD;1;OK - 201.65.76.130: rta 144.778ms, lost 0%
+[1488423600] CURRENT SERVICE STATE: disponibilidade_fundacao_rnp;Check_fw_200.137.134.162;OK;HARD;1;OK - 200.137.134.162: rta 114.923ms, lost 0%
+[1488423600] CURRENT SERVICE STATE: disponibilidade_fundacao_rnp;Check_rot_200.137.134.161;OK;HARD;1;OK - 200.137.134.161: rta 113.773ms, lost 0%
+[1488423600] CURRENT SERVICE STATE: disponibilidade_fundacao_rnp;Disponibilidade;OK;HARD;1;OK - 200.137.134.162: rta 114.001ms, lost 0%
+[1488423600] CURRENT SERVICE STATE: disponibilidade_rebocadores_eqt;Check_fw_187.72.195.143;OK;HARD;1;OK - 187.72.195.143: rta 148.890ms, lost 0%
+[1488423600] CURRENT SERVICE STATE: disponibilidade_rebocadores_eqt;Disponibilidade;OK;HARD;1;OK - 187.72.195.143: rta 148.927ms, lost 0%
+[1488423600] CURRENT SERVICE STATE: disponibilidade_rebocadores_oi;Check_fw_200.216.199.34;OK;HARD;1;OK - 200.216.199.34: rta 85.063ms, lost 0%
+[1488423600] CURRENT SERVICE STATE: disponibilidade_rebocadores_oi;Disponibilidade;OK;HARD;1;OK - 200.216.199.34: rta 85.066ms, lost 0%
+[1488426995] Auto-save of retention data completed successfully.
+[1488430595] Auto-save of retention data completed successfully.
+[1488434195] Auto-save of retention data completed successfully.
+[1488437795] Auto-save of retention data completed successfully.
+[1488441395] Auto-save of retention data completed successfully.
+[1488444995] Auto-save of retention data completed successfully.
+[1488448595] Auto-save of retention data completed successfully.
+[1488448755] SERVICE ALERT: disponibilidade_rebocadores_eqt;Check_fw_187.72.195.143;WARNING;SOFT;1;WARNING - 187.72.195.143: rta 154.911ms, lost 33%
+[1488448810] SERVICE ALERT: disponibilidade_rebocadores_eqt;Check_fw_187.72.195.143;OK;SOFT;2;OK - 187.72.195.143: rta 155.094ms, lost 0%
+[1488452195] Auto-save of retention data completed successfully.
+[1488452625] SERVICE ALERT: disponibilidade_rebocadores_eqt;Disponibilidade;WARNING;SOFT;1;WARNING - 187.72.195.143: rta 155.173ms, lost 20%
+[1488452680] SERVICE ALERT: disponibilidade_rebocadores_eqt;Disponibilidade;OK;SOFT;2;OK - 187.72.195.143: rta 155.105ms, lost 0%
+[1488455795] Auto-save of retention data completed successfully.
+[1488459395] Auto-save of retention data completed successfully.
+[1488461715] SERVICE ALERT: disponibilidade_rebocadores_eqt;Check_fw_187.72.195.143;WARNING;SOFT;1;WARNING - 187.72.195.143: rta 156.398ms, lost 33%
+[1488461770] SERVICE ALERT: disponibilidade_rebocadores_eqt;Check_fw_187.72.195.143;OK;SOFT;2;OK - 187.72.195.143: rta 155.138ms, lost 0%
+[1488462995] Auto-save of retention data completed successfully.
+[1488466595] Auto-save of retention data completed successfully.
+[1488469400] SERVICE ALERT: disponibilidade_fundacao_emb;Disponibilidade;WARNING;SOFT;1;WARNING - 201.65.76.130: rta 213.127ms, lost 20%
+[1488469455] SERVICE ALERT: disponibilidade_fundacao_emb;Disponibilidade;OK;SOFT;2;OK - 201.65.76.130: rta 170.923ms, lost 0%
+[1488470195] Auto-save of retention data completed successfully.
+[1488472075] SERVICE ALERT: disponibilidade_fundacao_rnp;Disponibilidade;WARNING;SOFT;1;WARNING - 200.137.134.162: rta 114.368ms, lost 20%
+[1488472130] SERVICE ALERT: disponibilidade_fundacao_rnp;Disponibilidade;OK;SOFT;2;OK - 200.137.134.162: rta 114.154ms, lost 0%
+[1488473795] Auto-save of retention data completed successfully.
+[1488477395] Auto-save of retention data completed successfully.
+[1488477870] EXTERNAL COMMAND: RESTART_PROGRAM;
+[1488477870] EXTERNAL COMMAND: RESTART_PROGRAM;
+[1488477870] PROGRAM_RESTART event encountered, restarting...
+[1488477870] ndomod: Shutdown complete.
+[1488477870] Event broker module '/usr/local/nagios/bin/ndomod.o' deinitialized successfully.
+[1488477870] Nagios 3.4.4 starting... (PID=22812)
+[1488477870] Local time is Thu Mar 02 15:04:30 BRT 2017
+[1488477870] LOG VERSION: 2.0
+[1488477870] ndomod: NDOMOD-MERETHIS 1.4b9-merethis (10-27-2009) Copyright (c) 2009 Nagios Core Development Team and Community Contributors
+[1488477870] ndomod: Successfully connected to data sink.  0 queued items to flush.
+[1488477870] Event broker module '/usr/local/nagios/bin/ndomod.o' initialized successfully.
+[1488477870] Warning: Service 'Check_fw_186.229.16.194' on host 'disponibilidade_canopus_tim' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'Check_rot_186.229.16.193' on host 'disponibilidade_canopus_tim' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'Disponibilidade' on host 'disponibilidade_canopus_tim' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'Check_fw_201.65.76.130' on host 'disponibilidade_fundacao_emb' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'Check_rot_201.65.76.129' on host 'disponibilidade_fundacao_emb' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'Disponibilidade' on host 'disponibilidade_fundacao_emb' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'Check_fw_200.137.134.162' on host 'disponibilidade_fundacao_rnp' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'Check_rot_200.137.134.161' on host 'disponibilidade_fundacao_rnp' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'Disponibilidade' on host 'disponibilidade_fundacao_rnp' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'Check_fw_187.72.195.143' on host 'disponibilidade_rebocadores_eqt' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'Disponibilidade' on host 'disponibilidade_rebocadores_eqt' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'Check_fw_200.216.199.34' on host 'disponibilidade_rebocadores_oi' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'Disponibilidade' on host 'disponibilidade_rebocadores_oi' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'CPU' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'DISK' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'Data_e_Hora' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'Disponibilidade' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'Estado_PFILTER' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'FreeBSD_version' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'LOAD' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'MEMORIA' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'Network-bge0-Wikitelecom' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'Network-bge1-Embrael' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'Network-em0-Local' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'Numero_Processos' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'PFILTER_CORRESPONDENCIAS' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'PFILTER_INSERSOES' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'PFILTER_REMOVIDOS' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488477870] Warning: Service 'Usuarios' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488477870] Warning: Host 'cmp-prod-server-01' has no services associated with it!
+[1488477870] Warning: Host 'disponibilidade_canopus_tim' has no default contacts or contactgroups defined!
+[1488477870] Warning: Host 'disponibilidade_fundacao_emb' has no default contacts or contactgroups defined!
+[1488477870] Warning: Host 'disponibilidade_fundacao_rnp' has no default contacts or contactgroups defined!
+[1488477870] Warning: Host 'disponibilidade_rebocadores_eqt' has no default contacts or contactgroups defined!
+[1488477870] Warning: Host 'disponibilidade_rebocadores_oi' has no default contacts or contactgroups defined!
+[1488477870] Warning: Host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488477870] Warning: Contact 'Alan_Dutra' has no service notification time period defined!
+[1488477870] Warning: Contact 'Alan_Dutra' has no host notification time period defined!
+[1488477870] Warning: Contact 'Josimar_Numes' has no service notification time period defined!
+[1488477870] Warning: Contact 'Josimar_Numes' has no host notification time period defined!
+[1488477870] Warning: Contact 'Marcelo_Bene_WorldTec' has no service notification time period defined!
+[1488477870] Warning: Contact 'Marcelo_Bene_WorldTec' has no host notification time period defined!
+[1488477870] INITIAL HOST STATE: _Module_Meta;UP;HARD;1;
+[1488477870] INITIAL HOST STATE: cmp-prod-server-01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.06 ms
+[1488477870] INITIAL HOST STATE: disponibilidade_canopus_tim;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 138.76 ms
+[1488477870] INITIAL HOST STATE: disponibilidade_fundacao_emb;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 145.02 ms
+[1488477870] INITIAL HOST STATE: disponibilidade_fundacao_rnp;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 111.14 ms
+[1488477870] INITIAL HOST STATE: disponibilidade_rebocadores_eqt;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 155.27 ms
+[1488477870] INITIAL HOST STATE: disponibilidade_rebocadores_oi;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 84.97 ms
+[1488477870] INITIAL HOST STATE: fw-prod-nelsonw-01;UP;HARD;1;
+[1488477870] INITIAL SERVICE STATE: _Module_Meta;meta_2;OK;HARD;1;(null)
+[1488477870] INITIAL SERVICE STATE: disponibilidade_canopus_tim;Check_fw_186.229.16.194;OK;HARD;1;OK - 186.229.16.194: rta 138.756ms, lost 0%
+[1488477870] INITIAL SERVICE STATE: disponibilidade_canopus_tim;Check_rot_186.229.16.193;OK;HARD;1;OK - 186.229.16.193: rta 139.713ms, lost 0%
+[1488477870] INITIAL SERVICE STATE: disponibilidade_canopus_tim;Disponibilidade;OK;HARD;1;OK - 186.229.16.194: rta 139.061ms, lost 0%
+[1488477870] INITIAL SERVICE STATE: disponibilidade_fundacao_emb;Check_fw_201.65.76.130;OK;HARD;1;OK - 201.65.76.130: rta 144.923ms, lost 0%
+[1488477870] INITIAL SERVICE STATE: disponibilidade_fundacao_emb;Check_rot_201.65.76.129;OK;HARD;1;OK - 201.65.76.129: rta 133.853ms, lost 0%
+[1488477870] INITIAL SERVICE STATE: disponibilidade_fundacao_emb;Disponibilidade;OK;HARD;1;OK - 201.65.76.130: rta 144.818ms, lost 0%
+[1488477870] INITIAL SERVICE STATE: disponibilidade_fundacao_rnp;Check_fw_200.137.134.162;OK;HARD;1;OK - 200.137.134.162: rta 110.758ms, lost 0%
+[1488477870] INITIAL SERVICE STATE: disponibilidade_fundacao_rnp;Check_rot_200.137.134.161;OK;HARD;1;OK - 200.137.134.161: rta 114.791ms, lost 0%
+[1488477870] INITIAL SERVICE STATE: disponibilidade_fundacao_rnp;Disponibilidade;OK;HARD;1;OK - 200.137.134.162: rta 111.282ms, lost 0%
+[1488477870] INITIAL SERVICE STATE: disponibilidade_rebocadores_eqt;Check_fw_187.72.195.143;OK;HARD;1;OK - 187.72.195.143: rta 155.103ms, lost 0%
+[1488477870] INITIAL SERVICE STATE: disponibilidade_rebocadores_eqt;Disponibilidade;OK;HARD;1;OK - 187.72.195.143: rta 155.070ms, lost 0%
+[1488477870] INITIAL SERVICE STATE: disponibilidade_rebocadores_oi;Check_fw_200.216.199.34;OK;HARD;1;OK - 200.216.199.34: rta 85.725ms, lost 0%
+[1488477870] INITIAL SERVICE STATE: disponibilidade_rebocadores_oi;Disponibilidade;OK;HARD;1;OK - 200.216.199.34: rta 85.003ms, lost 0%
+[1488477870] INITIAL SERVICE STATE: fw-prod-nelsonw-01;CPU;OK;HARD;1;(null)
+[1488477870] INITIAL SERVICE STATE: fw-prod-nelsonw-01;DISK;OK;HARD;1;(null)
+[1488477870] INITIAL SERVICE STATE: fw-prod-nelsonw-01;Data_e_Hora;OK;HARD;1;(null)
+[1488477870] INITIAL SERVICE STATE: fw-prod-nelsonw-01;Disponibilidade;OK;HARD;1;(null)
+[1488477870] INITIAL SERVICE STATE: fw-prod-nelsonw-01;Estado_PFILTER;OK;HARD;1;(null)
+[1488477870] INITIAL SERVICE STATE: fw-prod-nelsonw-01;FreeBSD_version;OK;HARD;1;(null)
+[1488477870] INITIAL SERVICE STATE: fw-prod-nelsonw-01;LOAD;OK;HARD;1;(null)
+[1488477870] INITIAL SERVICE STATE: fw-prod-nelsonw-01;MEMORIA;OK;HARD;1;(null)
+[1488477870] INITIAL SERVICE STATE: fw-prod-nelsonw-01;Network-bge0-Wikitelecom;OK;HARD;1;(null)
+[1488477870] INITIAL SERVICE STATE: fw-prod-nelsonw-01;Network-bge1-Embrael;OK;HARD;1;(null)
+[1488477870] INITIAL SERVICE STATE: fw-prod-nelsonw-01;Network-em0-Local;OK;HARD;1;(null)
+[1488477870] INITIAL SERVICE STATE: fw-prod-nelsonw-01;Numero_Processos;OK;HARD;1;(null)
+[1488477870] INITIAL SERVICE STATE: fw-prod-nelsonw-01;PFILTER_CORRESPONDENCIAS;OK;HARD;1;(null)
+[1488477870] INITIAL SERVICE STATE: fw-prod-nelsonw-01;PFILTER_INSERSOES;OK;HARD;1;(null)
+[1488477870] INITIAL SERVICE STATE: fw-prod-nelsonw-01;PFILTER_REMOVIDOS;OK;HARD;1;(null)
+[1488477870] INITIAL SERVICE STATE: fw-prod-nelsonw-01;Usuarios;OK;HARD;1;(null)
+[1488477985] SERVICE ALERT: fw-prod-nelsonw-01;Network-bge0-Wikitelecom;CRITICAL;SOFT;1;(null)
+[1488478045] SERVICE ALERT: fw-prod-nelsonw-01;Network-bge0-Wikitelecom;CRITICAL;SOFT;2;(null)
+[1488478065] SERVICE ALERT: fw-prod-nelsonw-01;Network-bge1-Embrael;CRITICAL;SOFT;1;(null)
+[1488478105] SERVICE ALERT: fw-prod-nelsonw-01;Network-bge0-Wikitelecom;CRITICAL;HARD;3;(null)
+[1488478120] SERVICE ALERT: fw-prod-nelsonw-01;Data_e_Hora;WARNING;SOFT;1;CRITICAL - nao consegui capturar valores
+[1488478125] SERVICE ALERT: fw-prod-nelsonw-01;Network-bge1-Embrael;CRITICAL;SOFT;2;(null)
+[1488478145] SERVICE ALERT: fw-prod-nelsonw-01;Network-em0-Local;CRITICAL;SOFT;1;(null)
+[1488478180] SERVICE ALERT: fw-prod-nelsonw-01;Data_e_Hora;WARNING;SOFT;2;CRITICAL - nao consegui capturar valores
+[1488478185] SERVICE ALERT: fw-prod-nelsonw-01;Network-bge1-Embrael;CRITICAL;HARD;3;(null)
+[1488478190] SERVICE ALERT: fw-prod-nelsonw-01;CPU;CRITICAL;SOFT;1;(Service Check Timed Out)
+[1488478205] SERVICE ALERT: fw-prod-nelsonw-01;Network-em0-Local;CRITICAL;SOFT;2;(null)
+[1488478240] SERVICE ALERT: fw-prod-nelsonw-01;Data_e_Hora;WARNING;HARD;3;CRITICAL - nao consegui capturar valores
+[1488478265] SERVICE ALERT: fw-prod-nelsonw-01;Network-em0-Local;CRITICAL;HARD;3;(null)
+[1488478270] SERVICE ALERT: fw-prod-nelsonw-01;DISK;CRITICAL;SOFT;1;(Service Check Timed Out)
+[1488478365] SERVICE ALERT: fw-prod-nelsonw-01;LOAD;CRITICAL;SOFT;1;(Service Check Timed Out)
+[1488478370] SERVICE ALERT: fw-prod-nelsonw-01;LOAD;OK;SOFT;2;LOAD AVERAGE OK - 0.32,0.52,0.48
+[1488478375] SERVICE ALERT: fw-prod-nelsonw-01;DISK;OK;SOFT;2;DISK USAGE OK - Usage: 3% (Total: 54.22 GiB - Free: 48.22 GiB)
+[1488478395] SERVICE ALERT: fw-prod-nelsonw-01;CPU;OK;SOFT;2;CPU OK - Usage: 4%
+[1488478535] SERVICE ALERT: fw-prod-nelsonw-01;Data_e_Hora;OK;HARD;3;Hora atual do Host: 2017-3-2 15:15:3.9 -3:0
+[1488478555] SERVICE ALERT: fw-prod-nelsonw-01;Network-em0-Local;OK;HARD;3;Average IN: 0KBits/s (0.00%), Average OUT: 0KBits/s (0.00%)<br>Total RX: 2230.05 MBytes, Total TX: 3129.27 MBytes
+[1488478770] EXTERNAL COMMAND: RESTART_PROGRAM;
+[1488478770] PROGRAM_RESTART event encountered, restarting...
+[1488478770] ndomod: Shutdown complete.
+[1488478770] Event broker module '/usr/local/nagios/bin/ndomod.o' deinitialized successfully.
+[1488478770] Nagios 3.4.4 starting... (PID=22812)
+[1488478770] Local time is Thu Mar 02 15:19:30 BRT 2017
+[1488478770] LOG VERSION: 2.0
+[1488478770] ndomod: NDOMOD-MERETHIS 1.4b9-merethis (10-27-2009) Copyright (c) 2009 Nagios Core Development Team and Community Contributors
+[1488478770] ndomod: Successfully connected to data sink.  0 queued items to flush.
+[1488478770] Event broker module '/usr/local/nagios/bin/ndomod.o' initialized successfully.
+[1488478770] Warning: Service 'Check_fw_186.229.16.194' on host 'disponibilidade_canopus_tim' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Check_rot_186.229.16.193' on host 'disponibilidade_canopus_tim' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Disponibilidade' on host 'disponibilidade_canopus_tim' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Check_fw_201.65.76.130' on host 'disponibilidade_fundacao_emb' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Check_rot_201.65.76.129' on host 'disponibilidade_fundacao_emb' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Disponibilidade' on host 'disponibilidade_fundacao_emb' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Check_fw_200.137.134.162' on host 'disponibilidade_fundacao_rnp' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Check_rot_200.137.134.161' on host 'disponibilidade_fundacao_rnp' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Disponibilidade' on host 'disponibilidade_fundacao_rnp' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Check_fw_187.72.195.143' on host 'disponibilidade_rebocadores_eqt' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Disponibilidade' on host 'disponibilidade_rebocadores_eqt' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Check_fw_200.216.199.34' on host 'disponibilidade_rebocadores_oi' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Disponibilidade' on host 'disponibilidade_rebocadores_oi' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'CPU' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'DISK' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Data_e_Hora' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Disponibilidade' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Estado_PFILTER' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'FreeBSD_version' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'LOAD' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'MEMORIA' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Network-em0-dmz1_1033440_24_3344' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Network-em1-mgm1_1033450_24_3345' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Network-em3-int1_1033400_24_3340' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Network-em4-vip1_10_33_42_0_25_3342' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Network-em5-wic1_10_33_43_128_25_3128' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Network-em6-wid1_10334164_26_164' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Network-em8-dev1_103341128_26_1128' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Network-em9-net1_192_168_0_2_24_4001' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Numero_Processos' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'PFILTER_CORRESPONDENCIAS' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'PFILTER_INSERSOES' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'PFILTER_REMOVIDOS' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488478770] Warning: Service 'Usuarios' on host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488478770] Warning: Host 'cmp-prod-server-01' has no services associated with it!
+[1488478770] Warning: Host 'disponibilidade_canopus_tim' has no default contacts or contactgroups defined!
+[1488478770] Warning: Host 'disponibilidade_fundacao_emb' has no default contacts or contactgroups defined!
+[1488478770] Warning: Host 'disponibilidade_fundacao_rnp' has no default contacts or contactgroups defined!
+[1488478770] Warning: Host 'disponibilidade_rebocadores_eqt' has no default contacts or contactgroups defined!
+[1488478770] Warning: Host 'disponibilidade_rebocadores_oi' has no default contacts or contactgroups defined!
+[1488478770] Warning: Host 'fw-prod-nelsonw-01' has no default contacts or contactgroups defined!
+[1488478770] Warning: Contact 'Alan_Dutra' has no service notification time period defined!
+[1488478770] Warning: Contact 'Alan_Dutra' has no host notification time period defined!
+[1488478770] Warning: Contact 'Josimar_Numes' has no service notification time period defined!
+[1488478770] Warning: Contact 'Josimar_Numes' has no host notification time period defined!
+[1488478770] Warning: Contact 'Marcelo_Bene_WorldTec' has no service notification time period defined!
+[1488478770] Warning: Contact 'Marcelo_Bene_WorldTec' has no host notification time period defined!
+[1488478770] INITIAL HOST STATE: _Module_Meta;UP;HARD;1;
+[1488478770] INITIAL HOST STATE: cmp-prod-server-01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.10 ms
+[1488478770] INITIAL HOST STATE: disponibilidade_canopus_tim;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 147.94 ms
+[1488478770] INITIAL HOST STATE: disponibilidade_fundacao_emb;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 145.26 ms
+[1488478770] INITIAL HOST STATE: disponibilidade_fundacao_rnp;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 110.57 ms
+[1488478770] INITIAL HOST STATE: disponibilidade_rebocadores_eqt;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 155.19 ms
+[1488478770] INITIAL HOST STATE: disponibilidade_rebocadores_oi;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 84.93 ms
+[1488478770] INITIAL HOST STATE: fw-prod-nelsonw-01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 151.51 ms
+[1488478770] INITIAL SERVICE STATE: _Module_Meta;meta_2;OK;HARD;1;(null)
+[1488478770] INITIAL SERVICE STATE: disponibilidade_canopus_tim;Check_fw_186.229.16.194;OK;HARD;1;OK - 186.229.16.194: rta 138.684ms, lost 0%
+[1488478770] INITIAL SERVICE STATE: disponibilidade_canopus_tim;Check_rot_186.229.16.193;OK;HARD;1;OK - 186.229.16.193: rta 140.363ms, lost 0%
+[1488478770] INITIAL SERVICE STATE: disponibilidade_canopus_tim;Disponibilidade;OK;HARD;1;OK - 186.229.16.194: rta 138.713ms, lost 0%
+[1488478770] INITIAL SERVICE STATE: disponibilidade_fundacao_emb;Check_fw_201.65.76.130;OK;HARD;1;OK - 201.65.76.130: rta 144.546ms, lost 0%
+[1488478770] INITIAL SERVICE STATE: disponibilidade_fundacao_emb;Check_rot_201.65.76.129;OK;HARD;1;OK - 201.65.76.129: rta 133.927ms, lost 0%
+[1488478770] INITIAL SERVICE STATE: disponibilidade_fundacao_emb;Disponibilidade;OK;HARD;1;OK - 201.65.76.130: rta 149.201ms, lost 0%
+[1488478770] INITIAL SERVICE STATE: disponibilidade_fundacao_rnp;Check_fw_200.137.134.162;OK;HARD;1;OK - 200.137.134.162: rta 111.526ms, lost 0%
+[1488478770] INITIAL SERVICE STATE: disponibilidade_fundacao_rnp;Check_rot_200.137.134.161;OK;HARD;1;OK - 200.137.134.161: rta 116.749ms, lost 0%
+[1488478770] INITIAL SERVICE STATE: disponibilidade_fundacao_rnp;Disponibilidade;OK;HARD;1;OK - 200.137.134.162: rta 110.794ms, lost 0%
+[1488478770] INITIAL SERVICE STATE: disponibilidade_rebocadores_eqt;Check_fw_187.72.195.143;OK;HARD;1;OK - 187.72.195.143: rta 155.053ms, lost 0%
+[1488478770] INITIAL SERVICE STATE: disponibilidade_rebocadores_eqt;Disponibilidade;OK;HARD;1;OK - 187.72.195.143: rta 155.277ms, lost 0%
+[1488478770] INITIAL SERVICE STATE: disponibilidade_rebocadores_oi;Check_fw_200.216.199.34;OK;HARD;1;OK - 200.216.199.34: rta 85.217ms, lost 0%
+[1488478770] INITIAL SERVICE STATE: disponibilidade_rebocadores_oi;Disponibilidade;OK;HARD;1;OK - 200.216.199.34: rta 85.149ms, lost 0%
+[1488478770] INITIAL SERVICE STATE: fw-prod-nelsonw-01;CPU;OK;HARD;1;CPU OK - Usage: 7%
+[1488478770] INITIAL SERVICE STATE: fw-prod-nelsonw-01;DISK;OK;HARD;1;DISK USAGE OK - Usage: 3% (Total: 54.22 GiB - Free: 48.22 GiB)
+[1488478770] INITIAL SERVICE STATE: fw-prod-nelsonw-01;Data_e_Hora;OK;HARD;1;Hora atual do Host: 2017-3-2 15:15:3.9 -3:0
+[1488478770] INITIAL SERVICE STATE: fw-prod-nelsonw-01;Disponibilidade;OK;HARD;1;OK - 10.33.47.1: rta 155.510ms, lost 0%
+[1488478770] INITIAL SERVICE STATE: fw-prod-nelsonw-01;Estado_PFILTER;OK;HARD;1;SNMP OK - pfilter 2925
+[1488478770] INITIAL SERVICE STATE: fw-prod-nelsonw-01;FreeBSD_version;OK;HARD;1;SNMP OK - version "FreeBSD: FreeBSD 10.3-RELEASE-p5 #0 7307492(RELENG_2_3_2): Tue J"
+[1488478770] INITIAL SERVICE STATE: fw-prod-nelsonw-01;LOAD;OK;HARD;1;LOAD AVERAGE OK - 0.34,0.46,0.46
+[1488478770] INITIAL SERVICE STATE: fw-prod-nelsonw-01;MEMORIA;OK;HARD;1;MEMORY OK - Usage: 17% (Swap: 0%)
+[1488478770] INITIAL SERVICE STATE: fw-prod-nelsonw-01;Network-em0-dmz1_1033440_24_3344;OK;HARD;1;(null)
+[1488478770] INITIAL SERVICE STATE: fw-prod-nelsonw-01;Network-em1-mgm1_1033450_24_3345;OK;HARD;1;(null)
+[1488478770] INITIAL SERVICE STATE: fw-prod-nelsonw-01;Network-em3-int1_1033400_24_3340;OK;HARD;1;(null)
+[1488478770] INITIAL SERVICE STATE: fw-prod-nelsonw-01;Network-em4-vip1_10_33_42_0_25_3342;OK;HARD;1;(null)
+[1488478770] INITIAL SERVICE STATE: fw-prod-nelsonw-01;Network-em5-wic1_10_33_43_128_25_3128;OK;HARD;1;(null)
+[1488478770] INITIAL SERVICE STATE: fw-prod-nelsonw-01;Network-em6-wid1_10334164_26_164;OK;HARD;1;(null)
+[1488478770] INITIAL SERVICE STATE: fw-prod-nelsonw-01;Network-em8-dev1_103341128_26_1128;OK;HARD;1;(null)
+[1488478770] INITIAL SERVICE STATE: fw-prod-nelsonw-01;Network-em9-net1_192_168_0_2_24_4001;OK;HARD;1;(null)
+[1488478770] INITIAL SERVICE STATE: fw-prod-nelsonw-01;Numero_Processos;OK;HARD;1;SNMP OK - process_number 60
+[1488478770] INITIAL SERVICE STATE: fw-prod-nelsonw-01;PFILTER_CORRESPONDENCIAS;OK;HARD;1;SNMP OK - pfilter_rmatches 33799760
+[1488478770] INITIAL SERVICE STATE: fw-prod-nelsonw-01;PFILTER_INSERSOES;OK;HARD;1;SNMP OK - pfilter_inserts_stats 24782087
+[1488478770] INITIAL SERVICE STATE: fw-prod-nelsonw-01;PFILTER_REMOVIDOS;OK;HARD;1;SNMP OK - pfilter_removal_stats 24780429
+[1488478770] INITIAL SERVICE STATE: fw-prod-nelsonw-01;Usuarios;OK;HARD;1;SNMP OK - usuarios 1
+[1488479265] SERVICE ALERT: fw-prod-nelsonw-01;Network-em9-net1_192_168_0_2_24_4001;WARNING;SOFT;1;WARNING - Average IN: 78.25MBits/s (626.01%), Average OUT: 1.79MBits/s (14.30%)<br>Total RX: 3780.00 MBytes, Total TX: 1025.66 MBytes
+[1488479325] SERVICE ALERT: fw-prod-nelsonw-01;Network-em9-net1_192_168_0_2_24_4001;WARNING;SOFT;2;WARNING - Average IN: 78.98MBits/s (631.81%), Average OUT: 1.40MBits/s (11.23%)<br>Total RX: 4253.86 MBytes, Total TX: 1034.08 MBytes
+[1488479385] SERVICE ALERT: fw-prod-nelsonw-01;Network-em9-net1_192_168_0_2_24_4001;WARNING;HARD;3;WARNING - Average IN: 15.93MBits/s (127.45%), Average OUT: 1.07MBits/s (8.53%)<br>Total RX: 253.44 MBytes, Total TX: 1040.47 MBytes
+[1488479990] SERVICE ALERT: disponibilidade_rebocadores_eqt;Disponibilidade;CRITICAL;SOFT;1;CRITICAL - 187.72.195.143: rta nan, lost 100%
+[1488480006] EXTERNAL COMMAND: RESTART_PROGRAM;
+[1488480006] PROGRAM_RESTART event encountered, restarting...
+[1488480006] ndomod: Shutdown complete.
+[1488480006] Event broker module '/usr/local/nagios/bin/ndomod.o' deinitialized successfully.
+[1488480006] Nagios 3.4.4 starting... (PID=22812)
+[1488480006] Local time is Thu Mar 02 15:40:06 BRT 2017
+[1488480006] LOG VERSION: 2.0
+[1488480006] ndomod: NDOMOD-MERETHIS 1.4b9-merethis (10-27-2009) Copyright (c) 2009 Nagios Core Development Team and Community Contributors
+[1488480006] ndomod: Successfully connected to data sink.  0 queued items to flush.
+[1488480006] Event broker module '/usr/local/nagios/bin/ndomod.o' initialized successfully.
+[1488480006] Warning: Service 'Check_fw_186.229.16.194' on host 'disponibilidade_canopus_tim' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Check_rot_186.229.16.193' on host 'disponibilidade_canopus_tim' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Disponibilidade' on host 'disponibilidade_canopus_tim' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Check_fw_201.65.76.130' on host 'disponibilidade_fundacao_emb' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Check_rot_201.65.76.129' on host 'disponibilidade_fundacao_emb' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Disponibilidade' on host 'disponibilidade_fundacao_emb' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Check_fw_200.137.134.162' on host 'disponibilidade_fundacao_rnp' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Check_rot_200.137.134.161' on host 'disponibilidade_fundacao_rnp' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Disponibilidade' on host 'disponibilidade_fundacao_rnp' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Check_fw_187.72.195.143' on host 'disponibilidade_rebocadores_eqt' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Disponibilidade' on host 'disponibilidade_rebocadores_eqt' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Check_fw_200.216.199.34' on host 'disponibilidade_rebocadores_oi' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Disponibilidade' on host 'disponibilidade_rebocadores_oi' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'CPU' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'DISK' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Data_e_Hora' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Disponibilidade' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Estado_PFILTER' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'FreeBSD_version' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'LOAD' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'MEMORIA' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Network-em0-dmz1_1033440_24_3344' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Network-em1-mgm1_1033450_24_3345' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Network-em3-int1_1033400_24_3340' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Network-em4-vip1_10_33_42_0_25_3342' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Network-em5-wic1_10_33_43_128_25_3128' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Network-em6-wid1_10334164_26_164' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Network-em8-dev1_103341128_26_1128' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Network-em9-net1_192_168_0_2_24_4001' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Numero_Processos' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'PFILTER_CORRESPONDENCIAS' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'PFILTER_INSERSOES' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'PFILTER_REMOVIDOS' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488480006] Warning: Service 'Usuarios' on host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488480006] Warning: Host 'cmp-prod-server-01' has no services associated with it!
+[1488480006] Warning: Host 'disponibilidade_canopus_tim' has no default contacts or contactgroups defined!
+[1488480006] Warning: Host 'disponibilidade_fundacao_emb' has no default contacts or contactgroups defined!
+[1488480006] Warning: Host 'disponibilidade_fundacao_rnp' has no default contacts or contactgroups defined!
+[1488480006] Warning: Host 'disponibilidade_rebocadores_eqt' has no default contacts or contactgroups defined!
+[1488480006] Warning: Host 'disponibilidade_rebocadores_oi' has no default contacts or contactgroups defined!
+[1488480006] Warning: Host 'fw-prod-nwavgma-01' has no default contacts or contactgroups defined!
+[1488480006] Warning: Contact 'Alan_Dutra' has no service notification time period defined!
+[1488480006] Warning: Contact 'Alan_Dutra' has no host notification time period defined!
+[1488480006] Warning: Contact 'Josimar_Numes' has no service notification time period defined!
+[1488480006] Warning: Contact 'Josimar_Numes' has no host notification time period defined!
+[1488480006] Warning: Contact 'Marcelo_Bene_WorldTec' has no service notification time period defined!
+[1488480006] Warning: Contact 'Marcelo_Bene_WorldTec' has no host notification time period defined!
+[1488480006] INITIAL HOST STATE: _Module_Meta;UP;HARD;1;
+[1488480006] INITIAL HOST STATE: cmp-prod-server-01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.04 ms
+[1488480006] INITIAL HOST STATE: disponibilidade_canopus_tim;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 138.79 ms
+[1488480006] INITIAL HOST STATE: disponibilidade_fundacao_emb;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 144.63 ms
+[1488480006] INITIAL HOST STATE: disponibilidade_fundacao_rnp;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 170.20 ms
+[1488480006] INITIAL HOST STATE: disponibilidade_rebocadores_eqt;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 154.94 ms
+[1488480006] INITIAL HOST STATE: disponibilidade_rebocadores_oi;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 95.56 ms
+[1488480006] INITIAL HOST STATE: fw-prod-nwavgma-01;UP;HARD;1;
+[1488480006] INITIAL SERVICE STATE: _Module_Meta;meta_2;OK;HARD;1;(null)
+[1488480006] INITIAL SERVICE STATE: disponibilidade_canopus_tim;Check_fw_186.229.16.194;OK;HARD;1;OK - 186.229.16.194: rta 138.729ms, lost 0%
+[1488480006] INITIAL SERVICE STATE: disponibilidade_canopus_tim;Check_rot_186.229.16.193;OK;HARD;1;OK - 186.229.16.193: rta 139.456ms, lost 0%
+[1488480006] INITIAL SERVICE STATE: disponibilidade_canopus_tim;Disponibilidade;OK;HARD;1;OK - 186.229.16.194: rta 138.930ms, lost 0%
+[1488480006] INITIAL SERVICE STATE: disponibilidade_fundacao_emb;Check_fw_201.65.76.130;OK;HARD;1;OK - 201.65.76.130: rta 144.965ms, lost 0%
+[1488480006] INITIAL SERVICE STATE: disponibilidade_fundacao_emb;Check_rot_201.65.76.129;OK;HARD;1;OK - 201.65.76.129: rta 133.672ms, lost 0%
+[1488480006] INITIAL SERVICE STATE: disponibilidade_fundacao_emb;Disponibilidade;OK;HARD;1;OK - 201.65.76.130: rta 144.410ms, lost 0%
+[1488480006] INITIAL SERVICE STATE: disponibilidade_fundacao_rnp;Check_fw_200.137.134.162;OK;HARD;1;OK - 200.137.134.162: rta 171.486ms, lost 0%
+[1488480006] INITIAL SERVICE STATE: disponibilidade_fundacao_rnp;Check_rot_200.137.134.161;OK;HARD;1;OK - 200.137.134.161: rta 174.228ms, lost 0%
+[1488480006] INITIAL SERVICE STATE: disponibilidade_fundacao_rnp;Disponibilidade;OK;HARD;1;OK - 200.137.134.162: rta 169.926ms, lost 0%
+[1488480006] INITIAL SERVICE STATE: disponibilidade_rebocadores_eqt;Check_fw_187.72.195.143;OK;HARD;1;OK - 187.72.195.143: rta 155.116ms, lost 0%
+[1488480006] INITIAL SERVICE STATE: disponibilidade_rebocadores_eqt;Disponibilidade;CRITICAL;SOFT;1;CRITICAL - 187.72.195.143: rta nan, lost 100%
+[1488480006] INITIAL SERVICE STATE: disponibilidade_rebocadores_oi;Check_fw_200.216.199.34;OK;HARD;1;OK - 200.216.199.34: rta 95.741ms, lost 0%
+[1488480006] INITIAL SERVICE STATE: disponibilidade_rebocadores_oi;Disponibilidade;OK;HARD;1;OK - 200.216.199.34: rta 96.445ms, lost 0%
+[1488480006] INITIAL SERVICE STATE: fw-prod-nwavgma-01;CPU;OK;HARD;1;(null)
+[1488480006] INITIAL SERVICE STATE: fw-prod-nwavgma-01;DISK;OK;HARD;1;(null)
+[1488480006] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Data_e_Hora;OK;HARD;1;(null)
+[1488480006] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Disponibilidade;OK;HARD;1;(null)
+[1488480006] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Estado_PFILTER;OK;HARD;1;(null)
+[1488480006] INITIAL SERVICE STATE: fw-prod-nwavgma-01;FreeBSD_version;OK;HARD;1;(null)
+[1488480006] INITIAL SERVICE STATE: fw-prod-nwavgma-01;LOAD;OK;HARD;1;(null)
+[1488480006] INITIAL SERVICE STATE: fw-prod-nwavgma-01;MEMORIA;OK;HARD;1;(null)
+[1488480006] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Network-em0-dmz1_1033440_24_3344;OK;HARD;1;(null)
+[1488480006] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Network-em1-mgm1_1033450_24_3345;OK;HARD;1;(null)
+[1488480006] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Network-em3-int1_1033400_24_3340;OK;HARD;1;(null)
+[1488480006] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Network-em4-vip1_10_33_42_0_25_3342;OK;HARD;1;(null)
+[1488480006] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Network-em5-wic1_10_33_43_128_25_3128;OK;HARD;1;(null)
+[1488480006] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Network-em6-wid1_10334164_26_164;OK;HARD;1;(null)
+[1488480006] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Network-em8-dev1_103341128_26_1128;OK;HARD;1;(null)
+[1488480006] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;OK;HARD;1;(null)
+[1488480006] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Numero_Processos;OK;HARD;1;(null)
+[1488480006] INITIAL SERVICE STATE: fw-prod-nwavgma-01;PFILTER_CORRESPONDENCIAS;OK;HARD;1;(null)
+[1488480006] INITIAL SERVICE STATE: fw-prod-nwavgma-01;PFILTER_INSERSOES;OK;HARD;1;(null)
+[1488480006] INITIAL SERVICE STATE: fw-prod-nwavgma-01;PFILTER_REMOVIDOS;OK;HARD;1;(null)
+[1488480006] INITIAL SERVICE STATE: fw-prod-nwavgma-01;Usuarios;OK;HARD;1;(null)
+[1488480011] Warning: Check result queue contained results for host 'fw-prod-nelsonw-01', but the host could not be found!  Perhaps you forgot to define the host in your config files?
+[1488480041] SERVICE ALERT: disponibilidade_rebocadores_eqt;Disponibilidade;OK;SOFT;2;OK - 187.72.195.143: rta 154.959ms, lost 0%
+[1488480096] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;WARNING;SOFT;1;WARNING - Average IN: 70.38MBits/s (563.04%), Average OUT: 1.43MBits/s (11.46%)<br>Total RX: 3623.89 MBytes, Total TX: 1128.34 MBytes
+[1488480156] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;WARNING;SOFT;2;WARNING - Average IN: 69.34MBits/s (554.75%), Average OUT: 1.55MBits/s (12.43%)<br>Total RX: 4039.95 MBytes, Total TX: 1137.66 MBytes
+[1488480216] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;WARNING;HARD;3;WARNING - Average IN: 24.86MBits/s (198.85%), Average OUT: 653.7KBits/s (5.11%)<br>Total RX: 4189.09 MBytes, Total TX: 1141.49 MBytes
+[1488482916] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;OK;HARD;3;Average IN: 7.47MBits/s (59.79%), Average OUT: 504.8KBits/s (3.94%)<br>Total RX: 3375.25 MBytes, Total TX: 1516.13 MBytes
+[1488482951] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;1;WARNING - 10.33.44.1: rta 325.743ms, lost 20%
+[1488483011] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;2;WARNING - 10.33.44.1: rta 273.654ms, lost 0%
+[1488483071] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;OK;SOFT;3;OK - 10.33.44.1: rta 152.719ms, lost 0%
+[1488483216] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;WARNING;SOFT;1;WARNING - Average IN: 24.97MBits/s (199.73%), Average OUT: 1.03MBits/s (8.22%)<br>Total RX: 4129.24 MBytes, Total TX: 1547.15 MBytes
+[1488483276] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;WARNING;SOFT;2;WARNING - Average IN: 45.45MBits/s (363.63%), Average OUT: 754.1KBits/s (5.89%)<br>Total RX: 301.42 MBytes, Total TX: 1551.49 MBytes
+[1488483336] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;OK;SOFT;3;Average IN: 3.80MBits/s (30.36%), Average OUT: 210.5KBits/s (1.64%)<br>Total RX: 324.19 MBytes, Total TX: 1552.72 MBytes
+[1488483371] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;1;WARNING - 10.33.44.1: rta 213.248ms, lost 0%
+[1488483431] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;SOFT;2;WARNING - 10.33.44.1: rta 215.828ms, lost 0%
+[1488483491] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;WARNING;HARD;3;WARNING - 10.33.44.1: rta 215.045ms, lost 0%
+[1488483606] Auto-save of retention data completed successfully.
+[1488483676] SERVICE ALERT: disponibilidade_fundacao_rnp;Check_fw_200.137.134.162;WARNING;SOFT;1;WARNING - 200.137.134.162: rta 171.007ms, lost 33%
+[1488483726] SERVICE ALERT: disponibilidade_fundacao_rnp;Check_fw_200.137.134.162;OK;SOFT;2;OK - 200.137.134.162: rta 170.356ms, lost 0%
+[1488484836] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;WARNING;SOFT;1;WARNING - Average IN: 21.10MBits/s (168.78%), Average OUT: 702KBits/s (5.48%)<br>Total RX: 1546.37 MBytes, Total TX: 1620.34 MBytes
+[1488484896] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;WARNING;SOFT;2;WARNING - Average IN: 29.90MBits/s (239.19%), Average OUT: 545.7KBits/s (4.26%)<br>Total RX: 1725.76 MBytes, Total TX: 1623.54 MBytes
+[1488484956] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;OK;SOFT;3;Average IN: 6.19MBits/s (49.49%), Average OUT: 346.9KBits/s (2.71%)<br>Total RX: 1762.88 MBytes, Total TX: 1625.57 MBytes
+[1488485936] SERVICE ALERT: disponibilidade_fundacao_rnp;Disponibilidade;WARNING;SOFT;1;WARNING - 200.137.134.162: rta 170.114ms, lost 20%
+[1488485986] SERVICE ALERT: disponibilidade_fundacao_rnp;Disponibilidade;OK;SOFT;2;OK - 200.137.134.162: rta 170.039ms, lost 0%
+[1488486756] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;WARNING;SOFT;1;WARNING - Average IN: 30.93MBits/s (247.47%), Average OUT: 983KBits/s (7.68%)<br>Total RX: 3514.59 MBytes, Total TX: 1727.27 MBytes
+[1488486816] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;WARNING;SOFT;2;WARNING - Average IN: 54.69MBits/s (437.51%), Average OUT: 1.41MBits/s (11.28%)<br>Total RX: 3842.72 MBytes, Total TX: 1735.74 MBytes
+[1488486876] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;WARNING;HARD;3;WARNING - Average IN: 40.04MBits/s (320.29%), Average OUT: 1.60MBits/s (12.84%)<br>Total RX: 4082.94 MBytes, Total TX: 1745.37 MBytes
+[1488487206] Auto-save of retention data completed successfully.
+[1488488981] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;OK;HARD;3;Average IN: 5.09MBits/s (40.71%), Average OUT: 1.14MBits/s (9.15%)<br>Total RX: 969.07 MBytes, Total TX: 1996.61 MBytes
+[1488490806] Auto-save of retention data completed successfully.
+[1488491381] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;WARNING;SOFT;1;WARNING - Average IN: 48.94MBits/s (391.52%), Average OUT: 1.07MBits/s (8.57%)<br>Total RX: 3773.45 MBytes, Total TX: 2124.05 MBytes
+[1488491441] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;WARNING;SOFT;2;WARNING - Average IN: 73.85MBits/s (590.77%), Average OUT: 1.67MBits/s (13.39%)<br>Total RX: 4216.53 MBytes, Total TX: 2134.09 MBytes
+[1488491501] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;OK;SOFT;3;Average IN: 5.46MBits/s (43.71%), Average OUT: 208.6KBits/s (1.63%)<br>Total RX: 153.31 MBytes, Total TX: 2135.31 MBytes
+[1488492816] SERVICE ALERT: disponibilidade_fundacao_emb;Check_fw_201.65.76.130;WARNING;SOFT;1;WARNING - 201.65.76.130: rta 181.460ms, lost 33%
+[1488492871] SERVICE ALERT: disponibilidade_fundacao_emb;Check_fw_201.65.76.130;OK;SOFT;2;OK - 201.65.76.130: rta 178.800ms, lost 0%
+[1488494406] Auto-save of retention data completed successfully.
+[1488498006] Auto-save of retention data completed successfully.
+[1488499901] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;WARNING;SOFT;1;WARNING - Average IN: 17.71MBits/s (141.70%), Average OUT: 955.6KBits/s (7.47%)<br>Total RX: 4356.40 MBytes, Total TX: 2400.86 MBytes
+[1488499961] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;WARNING;SOFT;2;WARNING - Average IN: 39.68MBits/s (317.48%), Average OUT: 2.49MBits/s (19.89%)<br>Total RX: 502.47 MBytes, Total TX: 2416.02 MBytes
+[1488500021] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;WARNING;HARD;3;WARNING - Average IN: 38.55MBits/s (308.38%), Average OUT: 2.66MBits/s (21.31%)<br>Total RX: 737.61 MBytes, Total TX: 2432.27 MBytes
+[1488500321] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;OK;HARD;3;Average IN: 7.59MBits/s (60.70%), Average OUT: 694.4KBits/s (5.42%)<br>Total RX: 962.94 MBytes, Total TX: 2452.41 MBytes
+[1488501606] Auto-save of retention data completed successfully.
+[1488502421] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;WARNING;SOFT;1;WARNING - Average IN: 39.75MBits/s (317.97%), Average OUT: 1.77MBits/s (14.13%)<br>Total RX: 2648.63 MBytes, Total TX: 2527.53 MBytes
+[1488502481] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;WARNING;SOFT;2;WARNING - Average IN: 52.18MBits/s (417.47%), Average OUT: 2.07MBits/s (16.55%)<br>Total RX: 2956.51 MBytes, Total TX: 2539.74 MBytes
+[1488502541] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;WARNING;HARD;3;WARNING - Average IN: 38.46MBits/s (307.70%), Average OUT: 2.38MBits/s (19.07%)<br>Total RX: 3187.28 MBytes, Total TX: 2554.04 MBytes
+[1488504041] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;OK;HARD;3;Average IN: 2.39MBits/s (19.13%), Average OUT: 127.2KBits/s (0.99%)<br>Total RX: 3790.57 MBytes, Total TX: 2762.94 MBytes
+[1488504276] SERVICE ALERT: disponibilidade_fundacao_emb;Check_fw_201.65.76.130;WARNING;SOFT;1;WARNING - 201.65.76.130: rta 180.559ms, lost 33%
+[1488504331] SERVICE ALERT: disponibilidade_fundacao_emb;Check_fw_201.65.76.130;OK;SOFT;2;OK - 201.65.76.130: rta 179.390ms, lost 0%
+[1488504941] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;WARNING;SOFT;1;WARNING - Average IN: 25.14MBits/s (201.12%), Average OUT: 810.2KBits/s (6.33%)<br>Total RX: 4710.18 MBytes, Total TX: 2794.96 MBytes
+[1488505001] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;WARNING;SOFT;2;WARNING - Average IN: 20.56MBits/s (164.49%), Average OUT: 1.02MBits/s (8.13%)<br>Total RX: 733.43 MBytes, Total TX: 2800.85 MBytes
+[1488505061] SERVICE ALERT: fw-prod-nwavgma-01;Network-em9-net1_192_168_0_2_24_4001;OK;SOFT;3;Average IN: 2.83MBits/s (22.64%), Average OUT: 113.1KBits/s (0.88%)<br>Total RX: 750.42 MBytes, Total TX: 2801.52 MBytes
+[1488505206] Auto-save of retention data completed successfully.
+[1488507191] SERVICE ALERT: fw-prod-nwavgma-01;Disponibilidade;OK;HARD;3;OK - 10.33.44.1: rta 149.818ms, lost 0%
+[1488508806] Auto-save of retention data completed successfully.

@@ -1,0 +1,102 @@
+[1488250800] LOG ROTATION: DAILY
+[1488250800] LOG VERSION: 2.0
+[1488250800] CURRENT HOST STATE: _Module_Meta;UP;HARD;1;
+[1488250800] CURRENT HOST STATE: cmp-prod-server-01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.06 ms
+[1488250800] CURRENT HOST STATE: disponibilidade_canopus_tim;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 139.24 ms
+[1488250800] CURRENT HOST STATE: disponibilidade_fundacao_emb;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 136.03 ms
+[1488250800] CURRENT HOST STATE: disponibilidade_fundacao_rnp;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 114.14 ms
+[1488250800] CURRENT SERVICE STATE: _Module_Meta;meta_2;OK;HARD;1;(null)
+[1488250800] CURRENT SERVICE STATE: disponibilidade_canopus_tim;Check_fw_186.229.16.194;OK;HARD;1;OK - 186.229.16.194: rta 139.284ms, lost 0%
+[1488250800] CURRENT SERVICE STATE: disponibilidade_canopus_tim;Check_rot_186.229.16.193;OK;HARD;1;OK - 186.229.16.193: rta 139.807ms, lost 0%
+[1488250800] CURRENT SERVICE STATE: disponibilidade_canopus_tim;Disponibilidade;OK;HARD;1;OK - 186.229.16.194: rta 139.291ms, lost 0%
+[1488250800] CURRENT SERVICE STATE: disponibilidade_fundacao_emb;Check_fw_201.65.76.130;OK;HARD;1;OK - 201.65.76.130: rta 135.912ms, lost 0%
+[1488250800] CURRENT SERVICE STATE: disponibilidade_fundacao_emb;Check_rot_201.65.76.129;OK;HARD;1;OK - 201.65.76.129: rta 134.750ms, lost 0%
+[1488250800] CURRENT SERVICE STATE: disponibilidade_fundacao_emb;Disponibilidade;OK;HARD;1;OK - 201.65.76.130: rta 136.176ms, lost 0%
+[1488250800] CURRENT SERVICE STATE: disponibilidade_fundacao_rnp;Check_fw_200.137.134.162;OK;HARD;1;OK - 200.137.134.162: rta 113.968ms, lost 0%
+[1488250800] CURRENT SERVICE STATE: disponibilidade_fundacao_rnp;Check_rot_200.137.134.161;OK;HARD;1;OK - 200.137.134.161: rta 113.880ms, lost 0%
+[1488250800] CURRENT SERVICE STATE: disponibilidade_fundacao_rnp;Disponibilidade;OK;HARD;1;OK - 200.137.134.162: rta 113.979ms, lost 0%
+[1488253211] Auto-save of retention data completed successfully.
+[1488254195] EXTERNAL COMMAND: RESTART_PROGRAM;
+[1488254195] PROGRAM_RESTART event encountered, restarting...
+[1488254195] ndomod: Shutdown complete.
+[1488254195] Event broker module '/usr/local/nagios/bin/ndomod.o' deinitialized successfully.
+[1488254195] Nagios 3.4.4 starting... (PID=22812)
+[1488254195] Local time is Tue Feb 28 00:56:35 BRT 2017
+[1488254195] LOG VERSION: 2.0
+[1488254195] ndomod: NDOMOD-MERETHIS 1.4b9-merethis (10-27-2009) Copyright (c) 2009 Nagios Core Development Team and Community Contributors
+[1488254195] ndomod: Successfully connected to data sink.  0 queued items to flush.
+[1488254195] Event broker module '/usr/local/nagios/bin/ndomod.o' initialized successfully.
+[1488254195] Warning: Service 'Check_fw_186.229.16.194' on host 'disponibilidade_canopus_tim' has no default contacts or contactgroups defined!
+[1488254195] Warning: Service 'Check_rot_186.229.16.193' on host 'disponibilidade_canopus_tim' has no default contacts or contactgroups defined!
+[1488254195] Warning: Service 'Disponibilidade' on host 'disponibilidade_canopus_tim' has no default contacts or contactgroups defined!
+[1488254195] Warning: Service 'Check_fw_201.65.76.130' on host 'disponibilidade_fundacao_emb' has no default contacts or contactgroups defined!
+[1488254195] Warning: Service 'Check_rot_201.65.76.129' on host 'disponibilidade_fundacao_emb' has no default contacts or contactgroups defined!
+[1488254195] Warning: Service 'Disponibilidade' on host 'disponibilidade_fundacao_emb' has no default contacts or contactgroups defined!
+[1488254195] Warning: Service 'Check_fw_200.137.134.162' on host 'disponibilidade_fundacao_rnp' has no default contacts or contactgroups defined!
+[1488254195] Warning: Service 'Check_rot_200.137.134.161' on host 'disponibilidade_fundacao_rnp' has no default contacts or contactgroups defined!
+[1488254195] Warning: Service 'Disponibilidade' on host 'disponibilidade_fundacao_rnp' has no default contacts or contactgroups defined!
+[1488254195] Warning: Service 'Check_fw_187.72.195.143' on host 'disponibilidade_rebocadores_eqt' has no default contacts or contactgroups defined!
+[1488254195] Warning: Service 'Disponibilidade' on host 'disponibilidade_rebocadores_eqt' has no default contacts or contactgroups defined!
+[1488254195] Warning: Service 'Check_fw_200.216.199.34' on host 'disponibilidade_rebocadores_oi' has no default contacts or contactgroups defined!
+[1488254195] Warning: Service 'Disponibilidade' on host 'disponibilidade_rebocadores_oi' has no default contacts or contactgroups defined!
+[1488254195] Warning: Host 'cmp-prod-server-01' has no services associated with it!
+[1488254195] Warning: Host 'disponibilidade_canopus_tim' has no default contacts or contactgroups defined!
+[1488254195] Warning: Host 'disponibilidade_fundacao_emb' has no default contacts or contactgroups defined!
+[1488254195] Warning: Host 'disponibilidade_fundacao_rnp' has no default contacts or contactgroups defined!
+[1488254195] Warning: Host 'disponibilidade_rebocadores_eqt' has no default contacts or contactgroups defined!
+[1488254195] Warning: Host 'disponibilidade_rebocadores_oi' has no default contacts or contactgroups defined!
+[1488254195] INITIAL HOST STATE: _Module_Meta;UP;HARD;1;
+[1488254195] INITIAL HOST STATE: cmp-prod-server-01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.06 ms
+[1488254195] INITIAL HOST STATE: disponibilidade_canopus_tim;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 139.38 ms
+[1488254195] INITIAL HOST STATE: disponibilidade_fundacao_emb;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 136.04 ms
+[1488254195] INITIAL HOST STATE: disponibilidade_fundacao_rnp;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 113.80 ms
+[1488254195] INITIAL HOST STATE: disponibilidade_rebocadores_eqt;UP;HARD;1;
+[1488254195] INITIAL HOST STATE: disponibilidade_rebocadores_oi;UP;HARD;1;
+[1488254195] INITIAL SERVICE STATE: _Module_Meta;meta_2;OK;HARD;1;(null)
+[1488254195] INITIAL SERVICE STATE: disponibilidade_canopus_tim;Check_fw_186.229.16.194;OK;HARD;1;OK - 186.229.16.194: rta 139.085ms, lost 0%
+[1488254195] INITIAL SERVICE STATE: disponibilidade_canopus_tim;Check_rot_186.229.16.193;OK;HARD;1;OK - 186.229.16.193: rta 139.825ms, lost 0%
+[1488254195] INITIAL SERVICE STATE: disponibilidade_canopus_tim;Disponibilidade;OK;HARD;1;OK - 186.229.16.194: rta 139.263ms, lost 0%
+[1488254195] INITIAL SERVICE STATE: disponibilidade_fundacao_emb;Check_fw_201.65.76.130;OK;HARD;1;OK - 201.65.76.130: rta 136.180ms, lost 0%
+[1488254195] INITIAL SERVICE STATE: disponibilidade_fundacao_emb;Check_rot_201.65.76.129;OK;HARD;1;OK - 201.65.76.129: rta 134.471ms, lost 0%
+[1488254195] INITIAL SERVICE STATE: disponibilidade_fundacao_emb;Disponibilidade;OK;HARD;1;OK - 201.65.76.130: rta 136.358ms, lost 0%
+[1488254195] INITIAL SERVICE STATE: disponibilidade_fundacao_rnp;Check_fw_200.137.134.162;OK;HARD;1;OK - 200.137.134.162: rta 114.087ms, lost 0%
+[1488254195] INITIAL SERVICE STATE: disponibilidade_fundacao_rnp;Check_rot_200.137.134.161;OK;HARD;1;OK - 200.137.134.161: rta 113.785ms, lost 0%
+[1488254195] INITIAL SERVICE STATE: disponibilidade_fundacao_rnp;Disponibilidade;OK;HARD;1;OK - 200.137.134.162: rta 114.042ms, lost 0%
+[1488254195] INITIAL SERVICE STATE: disponibilidade_rebocadores_eqt;Check_fw_187.72.195.143;OK;HARD;1;(null)
+[1488254195] INITIAL SERVICE STATE: disponibilidade_rebocadores_eqt;Disponibilidade;OK;HARD;1;(null)
+[1488254195] INITIAL SERVICE STATE: disponibilidade_rebocadores_oi;Check_fw_200.216.199.34;OK;HARD;1;(null)
+[1488254195] INITIAL SERVICE STATE: disponibilidade_rebocadores_oi;Disponibilidade;OK;HARD;1;(null)
+[1488256605] SERVICE ALERT: disponibilidade_rebocadores_eqt;Disponibilidade;WARNING;SOFT;1;WARNING - 187.72.195.143: rta 224.244ms, lost 20%
+[1488256660] SERVICE ALERT: disponibilidade_rebocadores_eqt;Disponibilidade;OK;SOFT;2;OK - 187.72.195.143: rta 224.152ms, lost 0%
+[1488257795] Auto-save of retention data completed successfully.
+[1488261395] Auto-save of retention data completed successfully.
+[1488264995] Auto-save of retention data completed successfully.
+[1488268595] Auto-save of retention data completed successfully.
+[1488272195] Auto-save of retention data completed successfully.
+[1488275795] Auto-save of retention data completed successfully.
+[1488279395] Auto-save of retention data completed successfully.
+[1488282995] Auto-save of retention data completed successfully.
+[1488286595] Auto-save of retention data completed successfully.
+[1488290195] Auto-save of retention data completed successfully.
+[1488293795] Auto-save of retention data completed successfully.
+[1488297395] Auto-save of retention data completed successfully.
+[1488300995] Auto-save of retention data completed successfully.
+[1488303160] SERVICE ALERT: disponibilidade_fundacao_emb;Check_fw_201.65.76.130;CRITICAL;SOFT;1;CRITICAL - 201.65.76.130: rta nan, lost 100%
+[1488303170] HOST ALERT: disponibilidade_fundacao_emb;DOWN;SOFT;1;(Host Check Timed Out)
+[1488303200] SERVICE ALERT: disponibilidade_fundacao_emb;Disponibilidade;CRITICAL;HARD;1;CRITICAL - 201.65.76.130: rta nan, lost 100%
+[1488303220] SERVICE ALERT: disponibilidade_fundacao_emb;Check_fw_201.65.76.130;CRITICAL;HARD;2;CRITICAL - 201.65.76.130: rta nan, lost 100%
+[1488303235] HOST ALERT: disponibilidade_fundacao_emb;UP;SOFT;2;PING OK - Packet loss = 0%, RTA = 145.09 ms
+[1488303495] SERVICE ALERT: disponibilidade_fundacao_emb;Disponibilidade;OK;HARD;1;OK - 201.65.76.130: rta 144.995ms, lost 0%
+[1488303510] SERVICE ALERT: disponibilidade_fundacao_emb;Check_fw_201.65.76.130;OK;HARD;2;OK - 201.65.76.130: rta 145.030ms, lost 0%
+[1488304595] Auto-save of retention data completed successfully.
+[1488308195] Auto-save of retention data completed successfully.
+[1488311795] Auto-save of retention data completed successfully.
+[1488315395] Auto-save of retention data completed successfully.
+[1488318995] Auto-save of retention data completed successfully.
+[1488322595] Auto-save of retention data completed successfully.
+[1488326195] Auto-save of retention data completed successfully.
+[1488329795] Auto-save of retention data completed successfully.
+[1488333395] Auto-save of retention data completed successfully.
+[1488333470] SERVICE ALERT: disponibilidade_rebocadores_eqt;Disponibilidade;WARNING;SOFT;1;WARNING - 187.72.195.143: rta 224.179ms, lost 20%
+[1488333520] SERVICE ALERT: disponibilidade_rebocadores_eqt;Disponibilidade;OK;SOFT;2;OK - 187.72.195.143: rta 224.271ms, lost 0%
+[1488336995] Auto-save of retention data completed successfully.

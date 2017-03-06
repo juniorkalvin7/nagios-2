@@ -1,0 +1,51 @@
+[1488337200] LOG ROTATION: DAILY
+[1488337200] LOG VERSION: 2.0
+[1488337200] CURRENT HOST STATE: _Module_Meta;UP;HARD;1;
+[1488337200] CURRENT HOST STATE: cmp-prod-server-01;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 0.07 ms
+[1488337200] CURRENT HOST STATE: disponibilidade_canopus_tim;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 139.07 ms
+[1488337200] CURRENT HOST STATE: disponibilidade_fundacao_emb;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 146.75 ms
+[1488337200] CURRENT HOST STATE: disponibilidade_fundacao_rnp;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 114.27 ms
+[1488337200] CURRENT HOST STATE: disponibilidade_rebocadores_eqt;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 155.46 ms
+[1488337200] CURRENT HOST STATE: disponibilidade_rebocadores_oi;UP;HARD;1;PING OK - Packet loss = 0%, RTA = 85.18 ms
+[1488337200] CURRENT SERVICE STATE: _Module_Meta;meta_2;OK;HARD;1;(null)
+[1488337200] CURRENT SERVICE STATE: disponibilidade_canopus_tim;Check_fw_186.229.16.194;OK;HARD;1;OK - 186.229.16.194: rta 139.086ms, lost 0%
+[1488337200] CURRENT SERVICE STATE: disponibilidade_canopus_tim;Check_rot_186.229.16.193;OK;HARD;1;OK - 186.229.16.193: rta 139.835ms, lost 0%
+[1488337200] CURRENT SERVICE STATE: disponibilidade_canopus_tim;Disponibilidade;OK;HARD;1;OK - 186.229.16.194: rta 139.264ms, lost 0%
+[1488337200] CURRENT SERVICE STATE: disponibilidade_fundacao_emb;Check_fw_201.65.76.130;OK;HARD;1;OK - 201.65.76.130: rta 143.913ms, lost 0%
+[1488337200] CURRENT SERVICE STATE: disponibilidade_fundacao_emb;Check_rot_201.65.76.129;OK;HARD;1;OK - 201.65.76.129: rta 133.832ms, lost 0%
+[1488337200] CURRENT SERVICE STATE: disponibilidade_fundacao_emb;Disponibilidade;OK;HARD;1;OK - 201.65.76.130: rta 145.361ms, lost 0%
+[1488337200] CURRENT SERVICE STATE: disponibilidade_fundacao_rnp;Check_fw_200.137.134.162;OK;HARD;1;OK - 200.137.134.162: rta 113.867ms, lost 0%
+[1488337200] CURRENT SERVICE STATE: disponibilidade_fundacao_rnp;Check_rot_200.137.134.161;OK;HARD;1;OK - 200.137.134.161: rta 113.942ms, lost 0%
+[1488337200] CURRENT SERVICE STATE: disponibilidade_fundacao_rnp;Disponibilidade;OK;HARD;1;OK - 200.137.134.162: rta 113.996ms, lost 0%
+[1488337200] CURRENT SERVICE STATE: disponibilidade_rebocadores_eqt;Check_fw_187.72.195.143;OK;HARD;1;OK - 187.72.195.143: rta 155.321ms, lost 0%
+[1488337200] CURRENT SERVICE STATE: disponibilidade_rebocadores_eqt;Disponibilidade;OK;HARD;1;OK - 187.72.195.143: rta 155.286ms, lost 0%
+[1488337200] CURRENT SERVICE STATE: disponibilidade_rebocadores_oi;Check_fw_200.216.199.34;OK;HARD;1;OK - 200.216.199.34: rta 84.918ms, lost 0%
+[1488337200] CURRENT SERVICE STATE: disponibilidade_rebocadores_oi;Disponibilidade;OK;HARD;1;OK - 200.216.199.34: rta 85.515ms, lost 0%
+[1488340595] Auto-save of retention data completed successfully.
+[1488344195] Auto-save of retention data completed successfully.
+[1488347795] Auto-save of retention data completed successfully.
+[1488351395] Auto-save of retention data completed successfully.
+[1488354995] Auto-save of retention data completed successfully.
+[1488358595] Auto-save of retention data completed successfully.
+[1488362195] Auto-save of retention data completed successfully.
+[1488365795] Auto-save of retention data completed successfully.
+[1488369395] Auto-save of retention data completed successfully.
+[1488372995] Auto-save of retention data completed successfully.
+[1488376595] Auto-save of retention data completed successfully.
+[1488380195] Auto-save of retention data completed successfully.
+[1488383795] Auto-save of retention data completed successfully.
+[1488387395] Auto-save of retention data completed successfully.
+[1488390715] SERVICE ALERT: disponibilidade_fundacao_rnp;Disponibilidade;WARNING;SOFT;1;WARNING - 200.137.134.162: rta 213.445ms, lost 20%
+[1488390770] SERVICE ALERT: disponibilidade_fundacao_rnp;Disponibilidade;OK;SOFT;2;OK - 200.137.134.162: rta 174.107ms, lost 0%
+[1488390995] Auto-save of retention data completed successfully.
+[1488394595] Auto-save of retention data completed successfully.
+[1488398195] Auto-save of retention data completed successfully.
+[1488401795] Auto-save of retention data completed successfully.
+[1488405395] Auto-save of retention data completed successfully.
+[1488408995] Auto-save of retention data completed successfully.
+[1488412595] Auto-save of retention data completed successfully.
+[1488414175] SERVICE ALERT: disponibilidade_canopus_tim;Check_rot_186.229.16.193;WARNING;SOFT;1;WARNING - 186.229.16.193: rta 184.252ms, lost 33%
+[1488414230] SERVICE ALERT: disponibilidade_canopus_tim;Check_rot_186.229.16.193;OK;SOFT;2;OK - 186.229.16.193: rta 180.485ms, lost 0%
+[1488416195] Auto-save of retention data completed successfully.
+[1488419795] Auto-save of retention data completed successfully.
+[1488423395] Auto-save of retention data completed successfully.

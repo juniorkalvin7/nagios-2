@@ -1,0 +1,53 @@
+##strings delimitador para mais ; e para mais de um indicie em 1 item usar [foo,tage]
+##Alerta
+##Causas
+##Restore
+{strings=CRITICAL - Interface;status : down
+Alerta=Interface de rede foi desligada ou n&#227;o h&#225; conectividade com a rede neste momento.
+Causas=Problema f&#237;sico da placa de rede, cabo de rede desconectado, desligamento do equipamento ou falta de energia no local.
+Restore=Interface de rede foi restaurada}
+
+{strings=Link Equatorial: DOWN
+Alerta=Link Equatorial Indispon&#237;vel
+Causas=Problema no Enlace, Fibra &#211;ptica, Ativos de redes, Aus&#234;ncia de internet no Provedor que atende a Equatorial, Problema na plataforma interna da Equatorial
+Restore=Link Equatorial restaurado}
+
+{strings=link Embratel: DOWN
+Alerta=Link Embratel Indispon&#237;vel
+Causas=Problema no Enlace, Fibra &#211;ptica, Ativos de redes, Problema na plataforma interna da Embratel
+Restore=Link Embratel restaurado}
+
+{strings=GPING
+Alerta=Lat&#234;ncia na rede fora do previsto poss&#237;vel perda de pacotes pode ocorrer neste momento
+Causas=Perda na qualidade do link, consumo de rede excessivos
+Restore=Lat&#234;ncia restaurada}
+
+{strings=WARNING - Average IN:
+Alerta=Tr&#225;fego da rede se aproximando de um n&#237;vel critico poss&#237;vel lentid&#227;o neste momento.
+Causas=Downloads excessivos ocorrendo neste momento.
+Restore=Tr&#225;fego restaurado}
+
+{strings=CRITICAL - Average IN:
+Alerta=Tr&#225;fego da rede a um n&#237;vel critico poss&#237;vel lentid&#227;o neste momento.
+Causas=Downloads excessivos ocorrendo neste momento.
+Restore=Tr&#225;fego restaurado}
+
+{strings=[CRITICAL – Interface is down];interface is not ready - status : down
+Alerta=Interface de rede foi desligada ou n&#227;o h&#225; conectividade com a rede neste momento.
+Causas=Problema f&#237;sico da placa de rede, cabo de rede desconectao, desligamento do equipamento ou falta  de energia no local.
+Restore=Interface de rede foi restaurada}
+
+{strings=PERDA CRITICAL;packet loss
+Alerta=Est&#225; havendo perda de pacotes neste momento.
+Causas=M&#225; qualidade do link ou consumo de rede excessivos.
+Restore=Qualidade restaurada.}
+
+{strings= CLOSED;CRITICAL - MPortCheck
+Alerta=O servi&#231;o parou de funcionar
+Causas=O software do servi&#231;o pode ter apresentado algum problema, ter sido desligado ou foi bloqueado por uma regra de firewall.
+Restore=Servi&#231;o foi restaurado.}
+
+{strings=Load average:
+Alerta=Alto processamento no elemento neste momento pode causar lentid&#227;o nas respostas aos servi&#231;os.
+Causas=Processamento indevido ocorrendo ou limite na configura&#231;&#227;o incorreto
+Restore=Processo voltou ao n&#237;vel normal.}
